@@ -4,105 +4,105 @@
         <Export program="GIANTS Editor 64bit" version="8.2.2"/>
     </Asset>
     <Files>
-        <File fileId="131" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/backflowUSAset_diffuse.png"/>
-        <File fileId="132" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/backflowUSAset_normal.png"/>
-        <File fileId="133" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/backflowUSAset_specular.png"/>
-        <File fileId="137" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/cellularAntenna_diffuse.png"/>
-        <File fileId="138" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/cellularAntenna_normal.png"/>
-        <File fileId="139" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/cellularAntenna_specular.png"/>
-        <File fileId="113" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/decalOilSlicks_diffuse.png"/>
-        <File fileId="165" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/garbageCartBlackDecal_diffuse.png"/>
-        <File fileId="162" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/garbageCartBlack_diffuse.png"/>
-        <File fileId="163" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/garbageCartBlack_normal.png"/>
-        <File fileId="164" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/garbageCartBlack_specular.png"/>
-        <File fileId="118" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/garbageContainerUSAset_diffuse.png"/>
-        <File fileId="119" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/garbageContainerUSAset_normal.png"/>
-        <File fileId="120" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/garbageContainerUSAset_specular.png"/>
-        <File fileId="156" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/plasticBarrier_diffuse.png"/>
-        <File fileId="157" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/plasticBarrier_normal.png"/>
-        <File fileId="158" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/plasticBarrier_specular.png"/>
-        <File fileId="121" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/propsDecalsUS_diffuse.png"/>
-        <File fileId="159" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/roadPoles_diffuse.png"/>
-        <File fileId="160" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/roadPoles_normal.png"/>
-        <File fileId="161" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/roadPoles_specular.png"/>
-        <File fileId="125" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/tireBrokenWire_diffuse.png"/>
-        <File fileId="126" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/tireBrokenWire_normal.png"/>
-        <File fileId="127" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/tireBrokenWire_specular.png"/>
-        <File fileId="122" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/tireBroken_diffuse.png"/>
-        <File fileId="123" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/tireBroken_normal.png"/>
-        <File fileId="124" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/tireBroken_specular.png"/>
-        <File fileId="115" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/tireHuge_diffuse.png"/>
-        <File fileId="116" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/tireHuge_normal.png"/>
-        <File fileId="117" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/tireHuge_specular.png"/>
-        <File fileId="128" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/trashPile_diffuse.png"/>
-        <File fileId="129" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/trashPile_normal.png"/>
-        <File fileId="130" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/trashPile_specular.png"/>
-        <File fileId="152" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/woodPiles01_diffuse.png"/>
-        <File fileId="153" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/woodPiles01_normal.png"/>
-        <File fileId="154" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/woodPiles01_specular.png"/>
-        <File fileId="155" filename="Epic Games/FarmingSimulator19/data/maps/textures/american/props/woodPiles02_diffuse.png"/>
-        <File fileId="148" filename="Epic Games/FarmingSimulator19/data/maps/textures/european/props/cargoContainerSet_normal.png"/>
-        <File fileId="149" filename="Epic Games/FarmingSimulator19/data/maps/textures/european/props/cargoContainerSet_specular.png"/>
-        <File fileId="147" filename="Epic Games/FarmingSimulator19/data/maps/textures/european/props/cargoContainerYellow_diffuse.png"/>
-        <File fileId="17" filename="Epic Games/FarmingSimulator19/data/maps/textures/european/props/euroPallet01_normal.png"/>
-        <File fileId="18" filename="Epic Games/FarmingSimulator19/data/maps/textures/european/props/euroPallet01_specular.png"/>
-        <File fileId="16" filename="Epic Games/FarmingSimulator19/data/maps/textures/european/props/euroPallet02_diffuse.png"/>
-        <File fileId="134" filename="Epic Games/FarmingSimulator19/data/maps/textures/european/props/metalTrashSet_diffuse.png"/>
-        <File fileId="135" filename="Epic Games/FarmingSimulator19/data/maps/textures/european/props/metalTrashSet_normal.png"/>
-        <File fileId="136" filename="Epic Games/FarmingSimulator19/data/maps/textures/european/props/metalTrashSet_specular.png"/>
-        <File fileId="166" filename="Epic Games/FarmingSimulator19/data/maps/textures/european/props/portManholeDE_diffuse.png"/>
-        <File fileId="167" filename="Epic Games/FarmingSimulator19/data/maps/textures/european/props/portManholeDE_normal.png"/>
-        <File fileId="168" filename="Epic Games/FarmingSimulator19/data/maps/textures/european/props/portManholeDE_specular.png"/>
-        <File fileId="150" filename="Epic Games/FarmingSimulator19/data/maps/textures/european/props/propsDecals_diffuse.png"/>
-        <File fileId="151" filename="Epic Games/FarmingSimulator19/data/maps/textures/european/props/propsDecals_specular.png"/>
-        <File fileId="140" filename="Epic Games/FarmingSimulator19/data/shaders/buildingShader.xml"/>
-        <File fileId="114" filename="Epic Games/FarmingSimulator19/data/shaders/decalShader.xml"/>
-        <File fileId="3" filename="Epic Games/FarmingSimulator19/data/shaders/numberShader.xml"/>
-        <File fileId="14" filename="Epic Games/FarmingSimulator19/data/shared/default_normal.dds"/>
-        <File fileId="2" filename="Epic Games/FarmingSimulator19/data/shared/numbers_diffuse.dds"/>
-        <File fileId="34" filename="haders/buildingShader.xml"/>
+        <File fileId="131" filename="textures/props/backflowUSAset_diffuse.png"/>
+        <File fileId="132" filename="textures/props/backflowUSAset_normal.png"/>
+        <File fileId="133" filename="textures/props/backflowUSAset_specular.png"/>
+        <File fileId="137" filename="textures/props/cellularAntenna_diffuse.png"/>
+        <File fileId="138" filename="textures/props/cellularAntenna_normal.png"/>
+        <File fileId="139" filename="textures/props/cellularAntenna_specular.png"/>
+        <File fileId="113" filename="textures/props/decalOilSlicks_diffuse.png"/>
+        <File fileId="165" filename="textures/props/garbageCartBlackDecal_diffuse.png"/>
+        <File fileId="162" filename="textures/props/garbageCartBlack_diffuse.png"/>
+        <File fileId="163" filename="textures/props/garbageCartBlack_normal.png"/>
+        <File fileId="164" filename="textures/props/garbageCartBlack_specular.png"/>
+        <File fileId="118" filename="textures/props/garbageContainerUSAset_diffuse.png"/>
+        <File fileId="119" filename="textures/props/garbageContainerUSAset_normal.png"/>
+        <File fileId="120" filename="textures/props/garbageContainerUSAset_specular.png"/>
+        <File fileId="156" filename="textures/props/plasticBarrier_diffuse.png"/>
+        <File fileId="157" filename="textures/props/plasticBarrier_normal.png"/>
+        <File fileId="158" filename="textures/props/plasticBarrier_specular.png"/>
+        <File fileId="121" filename="textures/props/propsDecalsUS_diffuse.png"/>
+        <File fileId="159" filename="textures/props/roadPoles_diffuse.png"/>
+        <File fileId="160" filename="textures/props/roadPoles_normal.png"/>
+        <File fileId="161" filename="textures/props/roadPoles_specular.png"/>
+        <File fileId="125" filename="textures/props/tireBrokenWire_diffuse.png"/>
+        <File fileId="126" filename="textures/props/tireBrokenWire_normal.png"/>
+        <File fileId="127" filename="textures/props/tireBrokenWire_specular.png"/>
+        <File fileId="122" filename="textures/props/tireBroken_diffuse.png"/>
+        <File fileId="123" filename="textures/props/tireBroken_normal.png"/>
+        <File fileId="124" filename="textures/props/tireBroken_specular.png"/>
+        <File fileId="115" filename="textures/props/tireHuge_diffuse.png"/>
+        <File fileId="116" filename="textures/props/tireHuge_normal.png"/>
+        <File fileId="117" filename="textures/props/tireHuge_specular.png"/>
+        <File fileId="128" filename="textures/props/trashPile_diffuse.png"/>
+        <File fileId="129" filename="textures/props/trashPile_normal.png"/>
+        <File fileId="130" filename="textures/props/trashPile_specular.png"/>
+        <File fileId="152" filename="textures/props/woodPiles01_diffuse.png"/>
+        <File fileId="153" filename="textures/props/woodPiles01_normal.png"/>
+        <File fileId="154" filename="textures/props/woodPiles01_specular.png"/>
+        <File fileId="155" filename="textures/american/props/woodPiles02_diffuse.png"/>
+        <File fileId="148" filename="textures/props/cargoContainerSet_normal.png"/>
+        <File fileId="149" filename="textures/props/cargoContainerSet_specular.png"/>
+        <File fileId="147" filename="textures/props/cargoContainerYellow_diffuse.png"/>
+        <File fileId="17" filename="textures/props/euroPallet01_normal.png"/>
+        <File fileId="18" filename="textures/props/euroPallet01_specular.png"/>
+        <File fileId="16" filename="textures/props/euroPallet02_diffuse.png"/>
+        <File fileId="134" filename="textures/props/metalTrashSet_diffuse.png"/>
+        <File fileId="135" filename="textures/props/metalTrashSet_normal.png"/>
+        <File fileId="136" filename="textures/props/metalTrashSet_specular.png"/>
+        <File fileId="166" filename="textures/props/portManholeDE_diffuse.png"/>
+        <File fileId="167" filename="textures/props/portManholeDE_normal.png"/>
+        <File fileId="168" filename="textures/props/portManholeDE_specular.png"/>
+        <File fileId="150" filename="textures/props/propsDecals_diffuse.png"/>
+        <File fileId="151" filename="textures/props/propsDecals_specular.png"/>
+        <File fileId="140" filename="shaders/buildingShader.xml"/>
+        <File fileId="114" filename="shaders/decalShader.xml"/>
+        <File fileId="3" filename="shaders/numberShader.xml"/>
+        <File fileId="14" filename="shared/default_normal.dds"/>
+        <File fileId="2" filename="shared/numbers_diffuse.dds"/>
+        <File fileId="34" filename="shaders/buildingShader.xml"/>
         <File fileId="25" filename="shaders/dashboardLightsShader.xml"/>
         <File fileId="23" filename="shared/default_normal.dds"/>
-        <File fileId="44" filename="textures/17import/lrgDryer/Escaler.dds"/>
-        <File fileId="27" filename="textures/17import/lrgDryer/Halle_diffuse.dds"/>
-        <File fileId="41" filename="textures/17import/lrgDryer/Porte.dds"/>
-        <File fileId="45" filename="textures/17import/lrgDryer/Silo.dds"/>
-        <File fileId="49" filename="textures/17import/lrgDryer/SocleBton.dds"/>
-        <File fileId="31" filename="textures/17import/lrgDryer/Traeger_diffuse.dds"/>
-        <File fileId="47" filename="textures/17import/lrgDryer/bardage.dds"/>
-        <File fileId="46" filename="textures/17import/lrgDryer/bois.dds"/>
-        <File fileId="43" filename="textures/17import/lrgDryer/gouttierre.dds"/>
-        <File fileId="40" filename="textures/17import/lrgDryer/toiture.dds"/>
-        <File fileId="33" filename="textures/17import/lrgDryer/torony_diffuse.dds"/>
-        <File fileId="48" filename="textures/17import/lrgDryer/tuyauterie.dds"/>
-        <File fileId="29" filename="textures/17import/lrgDryer/window_diffuse.dds"/>
-        <File fileId="50" filename="textures/17import/parts/Galvanized.dds"/>
-        <File fileId="79" filename="textures/17import/parts/beam.png"/>
-        <File fileId="70" filename="textures/17import/parts/bluemet.png"/>
-        <File fileId="63" filename="textures/17import/parts/concrete.png"/>
-        <File fileId="61" filename="textures/17import/parts/concrete2.png"/>
-        <File fileId="77" filename="textures/17import/parts/greydoor.png"/>
-        <File fileId="55" filename="textures/17import/parts/greygrate.png"/>
-        <File fileId="66" filename="textures/17import/parts/greymet.png"/>
-        <File fileId="71" filename="textures/17import/parts/greymet2.png"/>
-        <File fileId="72" filename="textures/17import/parts/greymet2N.png"/>
-        <File fileId="51" filename="textures/17import/parts/greymet3.dds"/>
-        <File fileId="52" filename="textures/17import/parts/greyprof.png"/>
-        <File fileId="81" filename="textures/17import/parts/motor.png"/>
-        <File fileId="82" filename="textures/17import/parts/motor2.png"/>
-        <File fileId="83" filename="textures/17import/parts/motor2N.png"/>
-        <File fileId="80" filename="textures/17import/parts/nightWindow.png"/>
-        <File fileId="60" filename="textures/17import/parts/pipeN.png"/>
-        <File fileId="53" filename="textures/17import/parts/profN.png"/>
-        <File fileId="67" filename="textures/17import/parts/red_white.png"/>
-        <File fileId="65" filename="textures/17import/parts/tanks.png"/>
-        <File fileId="73" filename="textures/17import/parts/thread.png"/>
-        <File fileId="75" filename="textures/17import/parts/threadplate.png"/>
-        <File fileId="76" filename="textures/17import/parts/threadplateN.png"/>
-        <File fileId="74" filename="textures/17import/parts/valves.png"/>
-        <File fileId="78" filename="textures/17import/parts/window.png"/>
-        <File fileId="58" filename="textures/17import/parts/yellowmet.png"/>
-        <File fileId="59" filename="textures/17import/parts/zinc.png"/>
+        <File fileId="44" filename="textures/lrgDryer/Escaler.dds"/>
+        <File fileId="27" filename="textures/lrgDryer/Halle_diffuse.dds"/>
+        <File fileId="41" filename="textures/lrgDryer/Porte.dds"/>
+        <File fileId="45" filename="textures/lrgDryer/Silo.dds"/>
+        <File fileId="49" filename="textures/lrgDryer/SocleBton.dds"/>
+        <File fileId="31" filename="textures/lrgDryer/Traeger_diffuse.dds"/>
+        <File fileId="47" filename="textures/lrgDryer/bardage.dds"/>
+        <File fileId="46" filename="textures/lrgDryer/bois.dds"/>
+        <File fileId="43" filename="textures/lrgDryer/gouttierre.dds"/>
+        <File fileId="40" filename="textures/lrgDryer/toiture.dds"/>
+        <File fileId="33" filename="textures/lrgDryer/torony_diffuse.dds"/>
+        <File fileId="48" filename="textures/lrgDryer/tuyauterie.dds"/>
+        <File fileId="29" filename="textures/lrgDryer/window_diffuse.dds"/>
+        <File fileId="50" filename="textures/parts/Galvanized.dds"/>
+        <File fileId="79" filename="textures/parts/beam.png"/>
+        <File fileId="70" filename="textures/parts/bluemet.png"/>
+        <File fileId="63" filename="textures/parts/concrete.png"/>
+        <File fileId="61" filename="textures/parts/concrete2.png"/>
+        <File fileId="77" filename="textures/parts/greydoor.png"/>
+        <File fileId="55" filename="textures/parts/greygrate.png"/>
+        <File fileId="66" filename="textures/parts/greymet.png"/>
+        <File fileId="71" filename="textures/parts/greymet2.png"/>
+        <File fileId="72" filename="textures/parts/greymet2N.png"/>
+        <File fileId="51" filename="textures/parts/greymet3.dds"/>
+        <File fileId="52" filename="textures/parts/greyprof.png"/>
+        <File fileId="81" filename="textures/parts/motor.png"/>
+        <File fileId="82" filename="textures/parts/motor2.png"/>
+        <File fileId="83" filename="textures/parts/motor2N.png"/>
+        <File fileId="80" filename="textures/parts/nightWindow.png"/>
+        <File fileId="60" filename="textures/parts/pipeN.png"/>
+        <File fileId="53" filename="textures/parts/profN.png"/>
+        <File fileId="67" filename="textures/parts/red_white.png"/>
+        <File fileId="65" filename="textures/parts/tanks.png"/>
+        <File fileId="73" filename="textures/parts/thread.png"/>
+        <File fileId="75" filename="textures/parts/threadplate.png"/>
+        <File fileId="76" filename="textures/parts/threadplateN.png"/>
+        <File fileId="74" filename="textures/parts/valves.png"/>
+        <File fileId="78" filename="textures/parts/window.png"/>
+        <File fileId="58" filename="textures/parts/yellowmet.png"/>
+        <File fileId="59" filename="textures/parts/zinc.png"/>
         <File fileId="90" filename="textures/2_2_2.dds"/>
         <File fileId="104" filename="textures/ConAga_Mills_logo.dds"/>
         <File fileId="95" filename="textures/TK_logo.dds"/>
@@ -111,12 +111,12 @@
         <File fileId="7" filename="textures/details_diffuse.dds"/>
         <File fileId="8" filename="textures/details_normal.dds"/>
         <File fileId="9" filename="textures/details_specular.dds"/>
-        <File fileId="22" filename="textures/european/props/lightPoleSetGlass_diffuse.png"/>
-        <File fileId="24" filename="textures/european/props/lightPoleSetGlass_specular.png"/>
-        <File fileId="26" filename="textures/european/props/lightPoleSet_emissive.png"/>
-        <File fileId="19" filename="textures/european/props/poleLampOld_diffuse.png"/>
-        <File fileId="20" filename="textures/european/props/poleLampOld_normal.png"/>
-        <File fileId="21" filename="textures/european/props/poleLampOld_specular.png"/>
+        <File fileId="22" filename="textures/props/lightPoleSetGlass_diffuse.png"/>
+        <File fileId="24" filename="textures/props/lightPoleSetGlass_specular.png"/>
+        <File fileId="26" filename="textures/props/lightPoleSet_emissive.png"/>
+        <File fileId="19" filename="textures/props/poleLampOld_diffuse.png"/>
+        <File fileId="20" filename="textures/props/poleLampOld_normal.png"/>
+        <File fileId="21" filename="textures/props/poleLampOld_specular.png"/>
         <File fileId="100" filename="textures/frame.dds"/>
         <File fileId="94" filename="textures/grate.dds"/>
         <File fileId="103" filename="textures/green_bolts.dds"/>
@@ -131,9 +131,9 @@
         <File fileId="86" filename="textures/reifen.dds"/>
         <File fileId="98" filename="textures/smithfield_Left.dds"/>
         <File fileId="99" filename="textures/smithfield_Right.dds"/>
-        <File fileId="4" filename="textures/textures/details_diffuse.dds"/>
-        <File fileId="5" filename="textures/textures/details_normal.dds"/>
-        <File fileId="6" filename="textures/textures/details_specular.dds"/>
+        <File fileId="4" filename="textures/details_diffuse.dds"/>
+        <File fileId="5" filename="textures/details_normal.dds"/>
+        <File fileId="6" filename="textures/details_specular.dds"/>
         <File fileId="96" filename="textures/thermo_king.dds"/>
         <File fileId="87" filename="textures/vehicleShaderDirt.xml"/>
         <File fileId="93" filename="textures/wab006.dds"/>
