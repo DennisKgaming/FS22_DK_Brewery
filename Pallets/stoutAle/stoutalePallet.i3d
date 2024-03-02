@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="stoutalePallet.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.4"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="$data/objects/pallets/euroPallet01_diffuse.png"/>
+    <File fileId="3" filename="$data/objects/pallets/euroPallet01_normal.png"/>
+    <File fileId="4" filename="$data/objects/pallets/euroPallet01_specular.png"/>
+    <File fileId="7" filename="stoutalebeer.dds"/>
+    <File fileId="5" filename="stoutalebeerCarton.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="euroPallet01_mat" materialId="5">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+    </Material>
+    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="mat2" materialId="7" specularColor="0.4 1 0.4">
+      <Texture fileId="5"/>
+    </Material>
+    <Material name="up2" materialId="8" specularColor="0.4 1 0.4">
+      <Texture fileId="7"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="stoutalePallet.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <Shape shapeId="1" name="stoutalebeerPallet" dynamic="true" compound="true" collisionMask="2109442" staticFriction="1" dynamicFriction="1" density="0.0001" clipDistance="150" nodeId="15" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="pallet_vis" nodeId="16" materialIds="5" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="dynamicMountTrigger" translation="0 0.0904753 0" visibility="false" kinematic="true" trigger="true" collisionMask="134217728" nodeId="17" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="dischargeNode" translation="0 0.6 0" nodeId="18"/>
+          <TransformGroup name="fillBags" translation="0.0163772 -0.099683 0" scale="0.801635 1 0.835373" nodeId="19">
+            <Shape shapeId="4" name="palletLoad" translation="-0.019425 0.903277 0.00631926" rotation="-90 -0 0" nodeId="20" materialIds="7,8,8" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+          </TransformGroup>
+          <TransformGroup name="collisions" clipDistance="10" nodeId="21">
+            <Shape shapeId="5" name="floorCollision01" translation="0.3 0 0" compoundChild="true" collisionMask="16781578" staticFriction="1" dynamicFriction="1" density="0.0001" nodeId="22" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="5" name="floorCollision02" translation="-0.3 0 0" compoundChild="true" collisionMask="16781578" staticFriction="1" dynamicFriction="1" density="0.0001" nodeId="23" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </TransformGroup>
+        </Shape>
+      </Shape>
+  </Scene>
+
+</i3D>

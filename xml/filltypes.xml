@@ -87,7 +87,7 @@
                 </factors>
             </economy>
             <image      hud     ="textures/regularBeer.dds" />
-            <!-- <pallet     filename="palette/mayonnaiseBoxPallet.xml" /> -->
+            <pallet     filename="Pallets/regularBeer/regularbeerPallet.xml" />
         </fillType>
 		
 		<fillType name="WHEAT_BEER" title="Wheat Beer" showOnPriceTable="true">
@@ -109,7 +109,7 @@
                 </factors>
             </economy>
             <image      hud     ="textures/wheatBeer.dds" />
-            <!-- <pallet     filename="palette/mayonnaiseBoxPallet.xml" /> -->
+            <pallet     filename="Pallets/wheatBeer/wheatbeerPallet.xml" />
         </fillType>
 		
 		<fillType name="STOUT_ALE" title="Stout Ale" showOnPriceTable="true">
@@ -131,7 +131,7 @@
                 </factors>
             </economy>
             <image      hud     ="textures/stoutAle.dds" />
-            <!-- <pallet     filename="palette/mayonnaiseBoxPallet.xml" /> -->
+            <pallet     filename="Pallets/stoutAle/stoutalePallet.xml" />
         </fillType>
 		
 		<fillType name="FRUIT_BEER" title="Fruit Beer" showOnPriceTable="true">
@@ -153,7 +153,7 @@
                 </factors>
             </economy>
             <image      hud     ="textures/fruitBeer.dds" />
-            <!-- <pallet     filename="palette/mayonnaiseBoxPallet.xml" /> -->
+            <pallet     filename="Pallets/fruitBeer/fruitbeerPallet.xml" />
         </fillType>
 	</fillTypes>
 	
