@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="77">
+   <author>DennisK</author>
+   <version>0.0.0.1</version>
+	<title>
+        <en>Brewery pack</en>
+		<de>Brauereipaket</de>
+    </title>
+    <description>
+       <en><![CDATA[No description availlable yet]]></en>
+
+<de><![CDATA[No description availlable yet]]></de>
+    </description>
+	
+	<multiplayer supported="true" />
+	
+    <iconFilename>icons/icon_breweryPack.dds</iconFilename>
+
+	<fillTypes filename="xml/filltypes.xml" />
+
+    <storeItems>
+        <storeItem xmlFilename="Brewery/xml/brewery.xml"/>
+    </storeItems>
+	
+</modDesc>
