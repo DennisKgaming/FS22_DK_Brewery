@@ -4,13 +4,13 @@
 
   <storeData>
     <name> $l10n_storeItem_EmptyPallets </name>
-    <image>Pallets/whatBeer/wheatbeerPallet.dds</image>
+    <image>Pallets/wheatBeer/wheatbeerPallet.dds</image>
     <category>pallets</category>
     <brand>LIZARD</brand>
     <showInStore>true</showInStore>
     <canBeSold>false</canBeSold>
     <financeCategory>OTHER</financeCategory>
-    <price>70</price>
+    <price>8500</price>
         <vertexBufferMemoryUsage>57600</vertexBufferMemoryUsage>
         <indexBufferMemoryUsage>7680</indexBufferMemoryUsage>
         <textureMemoryUsage>1703936</textureMemoryUsage>
@@ -36,7 +36,7 @@
         <fillUnitConfigurations>
             <fillUnitConfiguration>
                 <fillUnits removeVehicleIfEmpty="true">
-                    <fillUnit unitTextOverride="$l10n_unit_literShort" fillTypes="WHEAT_BEER" capacity="10" startFillLevel="10" startFillType="emptyPallet">
+                    <fillUnit unitTextOverride="$l10n_unit_literShort" fillTypes="WHEAT_BEER" capacity="1000" startFillLevel="10" startFillType="emptyPallet">
                         <fillLevelAnimation name="animation" resetOnEmpty="true" />
                     </fillUnit>
                 </fillUnits>

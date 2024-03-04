@@ -21,7 +21,7 @@
                 </factors>
             </economy>
             <image      hud     ="textures/malt.dds" />
-            <!-- <pallet     filename="palette/mayonnaiseBoxPallet.xml" /> -->
+            <pallet     filename="Pallets/Malt/maltPallet.xml" />
         </fillType>
 		
 		<fillType name="YEAST" title="Yeast" showOnPriceTable="true">
@@ -43,7 +43,7 @@
                 </factors>
             </economy>
             <image      hud     ="textures/yeast.dds" />
-            <!-- <pallet     filename="palette/mayonnaiseBoxPallet.xml" /> -->
+            <pallet     filename="Pallets/yeast/yeastPallet.xml" />
         </fillType>
 		
 		<fillType name="FRUIT_MASH" title="fruit Mash" showOnPriceTable="true">

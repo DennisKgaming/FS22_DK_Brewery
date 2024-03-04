@@ -90,44 +90,44 @@
 
     <productionPoint>
         <productions sharedThroughputCapacity="false">
-			<production id="BEER_REGULAR" name="Regular Beer" cyclesPerHour="15" costsPerActiveHour="20">
+			<production id="BEER_REGULAR" name="Regular Beer" cyclesPerHour="5" costsPerActiveHour="20">
                 <inputs>
-                    <input fillType="MALT" amount="1000" />
-                    <input fillType="YEAST" amount="1000" />
-                    <input fillType="WATER" amount="1000" />
+                    <input fillType="MALT"			amount="200" />
+                    <input fillType="YEAST" 		amount="10" />
+                    <input fillType="WATER" 		amount="800" />
                </inputs>
                <outputs>
                     <output fillType="REGULAR_BEER" amount="1000" />				
                </outputs>
 			</production>
-			<production id="BEER_WHEAT" name="Wheat Beer" cyclesPerHour="15" costsPerActiveHour="20">
+			<production id="BEER_WHEAT" name="Wheat Beer" cyclesPerHour="4" costsPerActiveHour="20">
                 <inputs>
-                    <input fillType="MALT" amount="1000" />
-                    <input fillType="YEAST" amount="1000" />
-                    <input fillType="WATER" amount="1000" />
-                    <input fillType="WHEAT" amount="1000" />
+                    <input fillType="MALT" 			amount="200" />
+                    <input fillType="YEAST" 		amount="10" />
+                    <input fillType="WATER" 		amount="600" />
+                    <input fillType="WHEAT" 		amount="200" />
                </inputs>
                <outputs>
                     <output fillType="WHEAT_BEER" amount="1000" />				
                </outputs>
 			</production>
-			<production id="BEER_OAT" name="Stout Ale" cyclesPerHour="15" costsPerActiveHour="20">
+			<production id="BEER_OAT" name="Stout Ale" cyclesPerHour="3" costsPerActiveHour="20">
                 <inputs>
-                    <input fillType="MALT" amount="1000" />
-                    <input fillType="YEAST" amount="1000" />
-                    <input fillType="WATER" amount="1000" />
-                    <input fillType="OAT" amount="1000" />
+                    <input fillType="MALT" 			amount="200" />
+                    <input fillType="YEAST" 		amount="10" />
+                    <input fillType="WATER" 		amount="600" />
+                    <input fillType="OAT" 			amount="200" />
                </inputs>
                <outputs>
                     <output fillType="STOUT_ALE" amount="1000" />				
                </outputs>
 			</production>
-			<production id="BEER_FRUIT" name="Fruit Beer" cyclesPerHour="15" costsPerActiveHour="20">
+			<production id="BEER_FRUIT" name="Fruit Beer" cyclesPerHour="2" costsPerActiveHour="20">
                 <inputs>
-                    <input fillType="MALT" amount="1000" />
-                    <input fillType="YEAST" amount="1000" />
-                    <input fillType="WATER" amount="1000" />
-                    <input fillType="FRUIT_MASH" amount="1000" />
+                    <input fillType="MALT" 			amount="200" />
+                    <input fillType="YEAST" 		amount="10" />
+                    <input fillType="WATER" 		amount="600" />
+                    <input fillType="FRUIT_MASH" 	amount="200" />
                </inputs>
                <outputs>
                     <output fillType="FRUIT_BEER" amount="1000" />				
@@ -137,8 +137,8 @@
 
         <sellingStation node="sellingStation" appearsOnStats="false" supportsExtension="false" allowMissions="false" hideFromPricesMenu="true">
 
-            <unloadTrigger exactFillRootNode="unloadTriggerBunker"       fillTypes="MALT WHEAT OAT" />
-            <unloadTrigger fillTypes="YEAST">
+            <unloadTrigger exactFillRootNode="unloadTriggerBunker"       fillTypes="YEAST MALT WHEAT OAT" />
+            <unloadTrigger fillTypes="YEAST MALT WHEAT OAT">
                 <baleTrigger triggerNode="baleTriggerBunker" />
             </unloadTrigger>
 
@@ -153,17 +153,17 @@
 		</palletSpawner>
 
         <storage isExtension="false" fillLevelSyncThreshold="100">
-			<capacity fillType="MALT"    		capacity="30000" />
-			<capacity fillType="YEAST"    		capacity="8000" />
-			<capacity fillType="WATER"    		capacity="30000" />
-			<capacity fillType="WHEAT"     		capacity="30000" />
-			<capacity fillType="OAT"     		capacity="30000" />
-			<capacity fillType="FRUIT_MASH"     capacity="30000" />
+			<capacity fillType="MALT"    		capacity="40000" />
+			<capacity fillType="YEAST"    		capacity="2500" />
+			<capacity fillType="WATER"    		capacity="150000" />
+			<capacity fillType="WHEAT"     		capacity="60000" />
+			<capacity fillType="OAT"     		capacity="60000" />
+			<capacity fillType="FRUIT_MASH"     capacity="60000" />
 			
-			<capacity fillType="REGULAR_BEER"     capacity="30000" />
-			<capacity fillType="WHEAT_BEER"     capacity="30000" />
-			<capacity fillType="STOUT_ALE"     capacity="30000" />
-			<capacity fillType="FRUIT_BEER"     capacity="30000" />
+			<capacity fillType="REGULAR_BEER"   capacity="60000" />
+			<capacity fillType="WHEAT_BEER"     capacity="48000" />
+			<capacity fillType="STOUT_ALE"     	capacity="36000" />
+			<capacity fillType="FRUIT_BEER"     capacity="24000" />
         </storage>
 
         <playerTrigger node="playerTrigger" />
