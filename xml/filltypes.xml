@@ -87,6 +87,7 @@
                 </factors>
             </economy>
             <image      hud     ="textures/regularBeer.dds" />
+            <!-- <pallet     filename="Pallets/testPallet/testPallet.xml" /> -->
             <pallet     filename="Pallets/regularBeer/regularbeerPallet.xml" />
         </fillType>
 		

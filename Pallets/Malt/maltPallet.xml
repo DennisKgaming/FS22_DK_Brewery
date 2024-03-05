@@ -21,7 +21,7 @@
     <base>
         <typeDesc>$l10n_typeDesc_pallet</typeDesc>
         <filename>Pallets/Malt/maltPallet.i3d</filename>
-        <size width="1.4" length="1" height="0.7" />
+        <size width="1.4" length="1" height="1.5" />
         <canBeReset>false</canBeReset>
         <components>
             <component centerOfMass="0 0.1 0" solverIterationCount="10" mass="60"/>
@@ -48,8 +48,8 @@
     <pallet fillUnitIndex="1" node="pallet_vis">
         <content>
             <!-- <object node="honeyBox1" tensionBeltNode="honeyBox1Tension"/> -->
-            <object node="metalBarrel_01" />
-            <object node="metalBarrel_02" />
+            <object node="metalBarrel_01" tensionBeltNode="maltbeerBarrel_strap_01"/>
+            <object node="metalBarrel_02" tensionBeltNode="maltbeerBarrel_strap_02"/>
         </content>
 
         <sounds>
@@ -60,11 +60,13 @@
     <dynamicMount triggerNode="dynamicMountTrigger" triggerForceAcceleration="4" additionalMountDistance="0.6" jointTransY="0.11" jointLimitToRotY="true"/>
 
     <i3dMappings>
-        <i3dMapping id="maltPallet_component1"	node="0>" />
-        <i3dMapping id="pallet_vis" 			node="0>0" />
-        <i3dMapping id="dynamicMountTrigger" 	node="0>0|0" />
-        <i3dMapping id="dischargeNode" 			node="0>0|1" />
-        <i3dMapping id="metalBarrel_01" 		node="0>0|2|0" />
-        <i3dMapping id="metalBarrel_02" 		node="0>0|2|1" />
+        <i3dMapping id="maltPallet_component1"		node="0>" />
+        <i3dMapping id="pallet_vis" 				node="0>0" />
+        <i3dMapping id="dynamicMountTrigger" 		node="0>0|0" />
+        <i3dMapping id="dischargeNode" 				node="0>0|1" />
+        <i3dMapping id="metalBarrel_01" 			node="0>0|2|0" />
+        <i3dMapping id="maltbeerBarrel_strap_01" 	node="0>0|2|0|1" />
+        <i3dMapping id="metalBarrel_02" 			node="0>0|2|1" />
+        <i3dMapping id="maltbeerBarrel_strap_02" 	node="0>0|2|1|1" />
     </i3dMappings>
 </vehicle>

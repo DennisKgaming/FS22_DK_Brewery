@@ -6,27 +6,29 @@
   </Asset>
 
   <Files>
-    <File fileId="2" filename="$data/objects/pallets/euroPallet01_diffuse.png"/>
-    <File fileId="3" filename="$data/objects/pallets/euroPallet01_normal.png"/>
-    <File fileId="4" filename="$data/objects/pallets/euroPallet01_specular.png"/>
-    <File fileId="7" filename="stoutalebeer.dds"/>
-    <File fileId="5" filename="stoutalebeerCarton.dds"/>
+    <File fileId="3" filename="$data/objects/pallets/euroPallet01_diffuse.png"/>
+    <File fileId="4" filename="$data/objects/pallets/euroPallet01_normal.png"/>
+    <File fileId="5" filename="$data/objects/pallets/euroPallet01_specular.png"/>
+    <File fileId="9" filename="stoutalebeer.dds"/>
+    <File fileId="7" filename="stoutalebeerCarton.dds"/>
   </Files>
 
 
   <Materials>
     <Material name="euroPallet01_mat" materialId="5">
-      <Texture fileId="2"/>
-      <Normalmap fileId="3"/>
-      <Glossmap fileId="4"/>
+      <Texture fileId="3"/>
+      <Normalmap fileId="4"/>
+      <Glossmap fileId="5"/>
+    </Material>
+    <Material name="i3d_default_material" materialId="25" diffuseColor="0.8 0.8 0.8 1" specularColor="0.6 1 0">
     </Material>
     <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
     </Material>
     <Material name="mat2" materialId="7" specularColor="0.4 1 0.4">
-      <Texture fileId="5"/>
+      <Texture fileId="7"/>
     </Material>
     <Material name="up2" materialId="8" specularColor="0.4 1 0.4">
-      <Texture fileId="7"/>
+      <Texture fileId="9"/>
     </Material>
   </Materials>
 
@@ -39,7 +41,7 @@
   </Dynamics>
 
   <Scene>
-      <Shape shapeId="1" name="stoutalebeerPallet" dynamic="true" compound="true" collisionMask="2109442" staticFriction="1" dynamicFriction="1" density="0.0001" clipDistance="150" nodeId="15" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <Shape shapeId="1" name="stoutalePallet_compound" dynamic="true" compound="true" collisionMask="2109442" nodeId="28" materialIds="25">
         <Shape shapeId="2" name="pallet_vis" nodeId="16" materialIds="5" castsShadows="true" receiveShadows="true">
           <Shape shapeId="3" name="dynamicMountTrigger" translation="0 0.0904753 0" visibility="false" kinematic="true" trigger="true" collisionMask="134217728" nodeId="17" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
           <TransformGroup name="dischargeNode" translation="0 0.6 0" nodeId="18"/>

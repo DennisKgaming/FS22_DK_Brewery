@@ -50,7 +50,7 @@
 
     <pallet fillUnitIndex="1" node="pallet_vis">
         <content>
-            <object node="palletLoad"/>		
+            <object node="regularbeer_01" tensionBeltNode="regularbeer01Tension"/>		
         </content>
 
         <sounds>
@@ -66,7 +66,8 @@
         <i3dMapping id="dynamicMountTrigger"	node="0>0|0" />
         <i3dMapping id="dischargeNode" 			node="0>0|1" />
 		
-        <i3dMapping id="palletLoad" 			node="0>0|2|0" />
+        <i3dMapping id="regularbeer_01" 		node="0>0|2|0" />
+        <i3dMapping id="regularbeer01Tension" 	node="0>0|2|0|0" />
         	
     </i3dMappings>
 </vehicle>

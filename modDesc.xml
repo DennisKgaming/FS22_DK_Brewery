@@ -23,6 +23,7 @@
 		
 		
 		
+        <!-- <storeItem xmlFilename="Pallets/testpallet/testPallet.xml"/> -->
         <storeItem xmlFilename="Pallets/regularBeer/regularbeerPallet.xml"/>
         <storeItem xmlFilename="Pallets/fruitBeer/fruitbeerPallet.xml"/>
         <storeItem xmlFilename="Pallets/stoutAle/stoutalePallet.xml"/>
