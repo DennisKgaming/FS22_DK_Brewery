@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="pallet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/vehicle.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <storeData>
+        <name>$l10n_fillType_liquidFertilizer</name>
+        <specs>
+            <capacity>2000</capacity>
+            <fillTypes>FRUIT_MASH</fillTypes>
+            <weight ignore="true"/>
+        </specs>
+        <image>Pallets/fruitMash/fruitmashTank.dds</image>
+        <price>7600</price>
+        <allowLeasing>false</allowLeasing>
+        <canBeSold>false</canBeSold>
+        <rotation>0</rotation>
+        <shopHeight>2</shopHeight>
+        <brand>LIZARD</brand>
+        <category>pallets</category>
+        <financeCategory>OTHER</financeCategory>
+        <vertexBufferMemoryUsage>87040</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>18176</indexBufferMemoryUsage>
+        <textureMemoryUsage>2162688</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+
+        <storeIconRendering>
+            <settings cameraXRot="-15" cameraYRot="25" />
+        </storeIconRendering>
+        <audioMemoryUsage>0</audioMemoryUsage>
+    </storeData>
+
+    <base>
+        <typeDesc>$l10n_typeDesc_pallet</typeDesc>
+        <filename>Pallets/fruitMash/fruitmashTank.i3d</filename>
+        <size width="1.6" length="1.6" height="1.6" />
+        <input allowed="false"/>
+        <canBeReset>false</canBeReset>
+        <components maxMass="850">
+            <component centerOfMass="0 0.1 0" solverIterationCount="10" mass="100" />
+        </components>
+        <showInVehicleMenu>false</showInVehicleMenu>
+        <mapHotspot available="false" />
+
+    </base>
+
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits removeVehicleIfEmpty="true">
+                    <fillUnit unitTextOverride="$l10n_unit_literShort" fillTypes="FRUIT_MASH" capacity="2000" startFillType="FRUIT_MASH" startFillLevel="2000" ignoreFillLimit="true">
+                        <fillRootNode node="0>" />
+                    </fillUnit>
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+
+    <fillTriggerVehicle triggerNode="fillTrigger" fillUnitIndex="1" litersPerSecond="200"/>
+
+    <dynamicMount triggerNode="dynamicMountTrigger" triggerForceAcceleration="5" additionalMountDistance="1.5" jointTransY="0.11" jointLimitToRotY="true"/>
+
+    <dischargeable requiresTipOcclusionArea="false" />
+
+    <tensionBeltObject>
+        <meshNodes>
+            <meshNode node="fruitmashTank_vis"/>
+        </meshNodes>
+    </tensionBeltObject>
+
+    <i3dMappings>
+        <i3dMapping id="dynamicMountTrigger" 	node="0>0|0" />
+        <i3dMapping id="fillTrigger" 			node="0>0|1" />
+        <i3dMapping id="fruitmashTank_vis" 		node="0>3|0" />
+    </i3dMappings>
+</vehicle>

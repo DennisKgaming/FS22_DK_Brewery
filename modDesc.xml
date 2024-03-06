@@ -22,14 +22,13 @@
         <storeItem xmlFilename="Brewery/xml/brewery.xml"/>
 		
 		
-		
-        <!-- <storeItem xmlFilename="Pallets/testpallet/testPallet.xml"/> -->
         <storeItem xmlFilename="Pallets/regularBeer/regularbeerPallet.xml"/>
         <storeItem xmlFilename="Pallets/fruitBeer/fruitbeerPallet.xml"/>
         <storeItem xmlFilename="Pallets/stoutAle/stoutalePallet.xml"/>
         <storeItem xmlFilename="Pallets/wheatBeer/wheatbeerPallet.xml"/>
         <storeItem xmlFilename="Pallets/yeast/yeastPallet.xml"/>
         <storeItem xmlFilename="Pallets/Malt/maltPallet.xml"/>
+        <storeItem xmlFilename="Pallets/fruitMash/fruitmashTank.xml"/>
 		
     </storeItems>
 	

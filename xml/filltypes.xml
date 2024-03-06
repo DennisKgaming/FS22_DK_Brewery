@@ -65,7 +65,7 @@
                 </factors>
             </economy>
             <image      hud     ="textures/fruitMash.dds" />
-            <!-- <pallet     filename="palette/mayonnaiseBoxPallet.xml" /> -->
+            <pallet     filename="Pallets/fruitMash/fruitmashTank.xml" />
         </fillType>
 		
 		<fillType name="REGULAR_BEER" title="Regular Beer" showOnPriceTable="true">
@@ -87,7 +87,6 @@
                 </factors>
             </economy>
             <image      hud     ="textures/regularBeer.dds" />
-            <!-- <pallet     filename="Pallets/testPallet/testPallet.xml" /> -->
             <pallet     filename="Pallets/regularBeer/regularbeerPallet.xml" />
         </fillType>
 		
