@@ -137,12 +137,12 @@
 
         <sellingStation node="sellingStation" appearsOnStats="false" supportsExtension="false" allowMissions="false" hideFromPricesMenu="true">
 
-            <unloadTrigger exactFillRootNode="unloadTriggerBunker"       fillTypes="YEAST MALT WHEAT OAT" />
-            <unloadTrigger fillTypes="YEAST MALT WHEAT OAT">
+            <unloadTrigger exactFillRootNode="unloadTriggerBunker"       fillTypes="YEAST MALT WHEAT OAT FRUIT_MASH" />
+            <unloadTrigger fillTypes="YEAST MALT WHEAT OAT FRUIT_MASH">
                 <baleTrigger triggerNode="baleTriggerBunker" />
             </unloadTrigger>
 
-            <unloadTrigger exactFillRootNode="unloadTriggerLiquid"      fillTypes="WATER MALT FRUIT_MASH" aiNode="unloadTriggerInFrontAINode" />
+            <unloadTrigger exactFillRootNode="unloadTriggerLiquid"      fillTypes="WATER" aiNode="unloadTriggerInFrontAINode" />
             
         </sellingStation>
 

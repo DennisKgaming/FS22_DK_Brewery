@@ -28,7 +28,7 @@
         <storeItem xmlFilename="Pallets/wheatBeer/wheatbeerPallet.xml"/>
         <storeItem xmlFilename="Pallets/yeast/yeastPallet.xml"/>
         <storeItem xmlFilename="Pallets/Malt/maltPallet.xml"/>
-        <storeItem xmlFilename="Pallets/fruitMash/fruitmashTank.xml"/>
+        <storeItem xmlFilename="Pallets/fruitMash/fruitmashPallet.xml"/>
 		
     </storeItems>
 	
