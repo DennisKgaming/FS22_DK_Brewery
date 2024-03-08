@@ -7,7 +7,7 @@
         <image>Pallets/Malt/maltPallet.dds</image>
         <category>pallets</category>
         <brand>LIZARD</brand>
-        <showInStore>false</showInStore>
+        <showInStore>true</showInStore>
         <canBeSold>false</canBeSold>
         <financeCategory>OTHER</financeCategory>
         <vertexBufferMemoryUsage>105472</vertexBufferMemoryUsage>
@@ -35,14 +35,15 @@
         <fillUnitConfigurations>
             <fillUnitConfiguration>
                 <fillUnits removeVehicleIfEmpty="true">
-                    <fillUnit unitTextOverride="$l10n_unit_literShort" fillTypes="MALT" capacity="500"/>
-                </fillUnits>
+                    <fillUnit unitTextOverride="$l10n_unit_literShort" fillTypes="MALT" capacity="500" startFillLevel="10" startFillType="emptyPallet"/>
+					<fillLevelAnimation name="animation" resetOnEmpty="true" />
+				</fillUnits>
             </fillUnitConfiguration>
         </fillUnitConfigurations>
     </fillUnit>
 
     <dischargeable requiresTipOcclusionArea="false">
-        <dischargeNode node="dischargeNode" emptySpeed="200" fillUnitIndex="1" maxDistance="6" canStartDischargeAutomatically="true" playSound="false"/>
+        <dischargeNode node="dischargeNode" emptySpeed="100" fillUnitIndex="1" maxDistance="6" canStartDischargeAutomatically="true" playSound="false"/>
     </dischargeable>
 
     <pallet fillUnitIndex="1" node="pallet_vis">

@@ -92,7 +92,7 @@
 
     <productionPoint>
         <productions sharedThroughputCapacity="false">
-			<production id="MALT_FACTORY" name="Malt" cyclesPerHour="5" costsPerActiveHour="20">
+			<production id="MALT_FACTORY" name="Malt" cyclesPerHour="2" costsPerActiveHour="20">
                 <inputs>
                     <input fillType="BARLEY"			amount="500" />
                     <input fillType="WATER" 			amount="500" />
@@ -117,17 +117,17 @@
 
         <palletSpawner>
 			<spawnPlaces>
-				<!-- <spawnPlace startNode="spawnSpace1start" endNode="spawnSpace1end"/> -->
-				<!-- <spawnPlace startNode="spawnSpace2start" endNode="spawnSpace2end"/> -->
-				<spawnPlace startNode="spawnSpace1start"/>
-				<spawnPlace startNode="spawnSpace2start"/>
+				<spawnPlace startNode="spawnSpace1start" endNode="spawnSpace1end"/>
+				<spawnPlace startNode="spawnSpace2start" endNode="spawnSpace2end"/>
+				<spawnPlace startNode="spawnSpace3start" endNode="spawnSpace3end"/>
+				<spawnPlace startNode="spawnSpace4start" endNode="spawnSpace4end"/>
 			</spawnPlaces>
 		</palletSpawner>
 
         <storage isExtension="false" fillLevelSyncThreshold="100">
-			<capacity fillType="BARLEY"    		capacity="100000" />
-			<capacity fillType="MALT"    		capacity="125000" />
-			<capacity fillType="WATER"    		capacity="300000" />
+			<capacity fillType="BARLEY"    		capacity="75000" />
+			<capacity fillType="MALT"    		capacity="125500" />
+			<capacity fillType="WATER"    		capacity="75000" />
         </storage>
 
         <playerTrigger node="playerTrigger" />
@@ -193,6 +193,10 @@
         <i3dMapping id="spawnSpace1end" 					node="0>4|0|0" />
         <i3dMapping id="spawnSpace2start" 					node="0>4|1" />
         <i3dMapping id="spawnSpace2end" 					node="0>4|1|0" />
+        <i3dMapping id="spawnSpace3start" 					node="0>4|2" />
+        <i3dMapping id="spawnSpace3end" 					node="0>4|2|0" />
+        <i3dMapping id="spawnSpace4start" 					node="0>4|3" />
+        <i3dMapping id="spawnSpace4end" 					node="0>4|3|0" />
 		
 		
     </i3dMappings>
