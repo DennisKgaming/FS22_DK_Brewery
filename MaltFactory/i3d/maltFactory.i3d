@@ -379,7 +379,7 @@
   </Dynamics>
 
   <Scene>
-      <TransformGroup name="CoffeeFactory" clipDistance="350" nodeId="168">
+      <TransformGroup name="MaltFactory" clipDistance="350" nodeId="168">
         <TransformGroup name="areaDefinitions" nodeId="169">
           <TransformGroup name="areas" nodeId="170">
             <TransformGroup name="testArea" nodeId="171">
