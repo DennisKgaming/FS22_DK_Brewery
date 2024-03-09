@@ -128,6 +128,8 @@
 			<capacity fillType="BARLEY"    		capacity="75000" />
 			<capacity fillType="MALT"    		capacity="125500" />
 			<capacity fillType="WATER"    		capacity="75000" />
+			
+			<fillPlane fillType="WATER" node="waterFillLevel_mover" minY="0" maxY="0.3" />
         </storage>
 
         <playerTrigger node="playerTrigger" />
@@ -197,6 +199,8 @@
         <i3dMapping id="spawnSpace3end" 					node="0>4|2|0" />
         <i3dMapping id="spawnSpace4start" 					node="0>4|3" />
         <i3dMapping id="spawnSpace4end" 					node="0>4|3|0" />
+		
+        <i3dMapping id="waterFillLevel_mover" 				node="0>5|2|0|0|1" />
 		
 		
     </i3dMappings>
