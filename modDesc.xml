@@ -21,6 +21,7 @@
     <storeItems>
         <storeItem xmlFilename="Brewery/xml/brewery.xml"/>
         <storeItem xmlFilename="MaltFactory/xml/maltFactory.xml"/>
+        <storeItem xmlFilename="FermentingFactory/xml/fermentingFactory.xml"/>
 		
 		
         <storeItem xmlFilename="Pallets/regularBeer/regularbeerPallet.xml"/>

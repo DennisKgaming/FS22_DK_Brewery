@@ -3,8 +3,8 @@
     
 	<storeData>
 		<name>
-			<en>Malt Production</en>
-			<de>Malz Produktion</de>
+			<en>Fermenting Production</en>
+			<de>Gärung Produktion</de>
 		</name>
         <functions>
             <function>$l10n_function_productionPoint</function>
@@ -33,7 +33,7 @@
     </storeData>
 
     <base>
-        <filename>MaltFactory/i3d/maltFactory.i3d</filename>
+        <filename>FermentingFactory/i3d/fermentingFactory.i3d</filename>
         <canBeRenamed>true</canBeRenamed>
         <boughtWithFarmland>true</boughtWithFarmland>
     </base>
@@ -64,7 +64,6 @@
         <indoorArea startNode="indoorArea3Start" widthNode="indoorArea3Width" heightNode="indoorArea3Height"/>
         <indoorArea startNode="indoorArea4Start" widthNode="indoorArea4Width" heightNode="indoorArea4Height"/>
         <indoorArea startNode="indoorArea5Start" widthNode="indoorArea5Width" heightNode="indoorArea5Height"/>
-        <indoorArea startNode="indoorArea6Start" widthNode="indoorArea6Width" heightNode="indoorArea6Height"/>
     </indoorAreas>
 
     <tipOcclusionUpdateAreas>
@@ -92,13 +91,51 @@
 
     <productionPoint>
         <productions sharedThroughputCapacity="false">
-			<production id="MALT_FACTORY" name="Malt" cyclesPerHour="2" costsPerActiveHour="20">
+		
+			<production id="FRUIT_MASH_FACTORY" name="Fruit Mash" cyclesPerHour="5" costsPerActiveHour="20">
                 <inputs>
-                    <input fillType="BARLEY"			amount="500" />
-                    <input fillType="WATER" 			amount="500" />
+                    <input fillType="STRAWBERRY"	amount="1000" />
                </inputs>
                <outputs>
-                    <output fillType="MALT" amount="1100" />				
+                    <output fillType="FRUIT_MASH" amount="800" />				
+                    <!-- <output fillType="MANURE" amount="1000" />				 -->
+               </outputs>
+			</production>
+			
+			<production id="YEAST_FACTORY" name="Yeast" cyclesPerHour="4" costsPerActiveHour="20">
+                <inputs>
+                    <input fillType="STRAWBERRY" 	amount="200" />
+                    <input fillType="SUGAR" 		amount="600" />
+                    <input fillType="WATER" 		amount="600" />
+               </inputs>
+               <outputs>
+                    <output fillType="YEAST" 		amount="1000" />				
+                    <!-- <output fillType="MANURE" 		amount="1000" />				 -->
+               </outputs>
+			</production>
+			
+			<production id="SILAGE_ADDITIVE_FACTORY" name="Silage Additive" cyclesPerHour="3" costsPerActiveHour="20">
+                <inputs>
+                    <input fillType="STRAWBERRY" 			amount="200" />
+                    <input fillType="LETTUCE" 			amount="200" />
+                    <input fillType="TOMATO" 			amount="200" />
+                    <input fillType="YEAST" 		amount="10" />
+                    <input fillType="WATER" 		amount="600" />
+                    <input fillType="SUGAR" 			amount="200" />
+               </inputs>
+               <outputs>
+                    <output fillType="SILAGE_ADDITIVE" amount="1000" />				
+                    <!-- <output fillType="MANURE" amount="1000" />				 -->
+               </outputs>
+			</production>
+			
+			<production id="YEAST_MULTIPLYING" name="Yeast Multiply" cyclesPerHour="1" costsPerActiveHour="20">
+                <inputs>
+                    <input fillType="YEAST" 			amount="100" />
+               </inputs>
+               <outputs>
+                    <output fillType="YEAST" amount="125" />				
+                    <!-- <output fillType="MANURE" amount="1000" />				 -->
                </outputs>
 			</production>
 			
@@ -106,8 +143,8 @@
 
         <sellingStation node="sellingStation" appearsOnStats="false" supportsExtension="false" allowMissions="false" hideFromPricesMenu="true">
 
-            <unloadTrigger exactFillRootNode="unloadTriggerBunker"       fillTypes="BARLEY" />
-            <unloadTrigger fillTypes="BARLEY">
+            <unloadTrigger exactFillRootNode="unloadTriggerBunker"       fillTypes="STRAWBERRY LETTUCE TOMATO SUGAR" />
+            <unloadTrigger fillTypes="STRAWBERRY LETTUCE TOMATO SUGAR">
                 <baleTrigger triggerNode="baleTriggerBunker" />
             </unloadTrigger>
 
@@ -119,15 +156,22 @@
 			<spawnPlaces>
 				<spawnPlace startNode="spawnSpace1start" endNode="spawnSpace1end"/>
 				<spawnPlace startNode="spawnSpace2start" endNode="spawnSpace2end"/>
-				<spawnPlace startNode="spawnSpace3start" endNode="spawnSpace3end"/>
-				<spawnPlace startNode="spawnSpace4start" endNode="spawnSpace4end"/>
 			</spawnPlaces>
 		</palletSpawner>
 
         <storage isExtension="false" fillLevelSyncThreshold="100">
-			<capacity fillType="BARLEY"    		capacity="75000" />
-			<capacity fillType="MALT"    		capacity="125500" />
-			<capacity fillType="WATER"    		capacity="75000" />
+			<!-- in -->
+			<capacity fillType="STRAWBERRY"    		capacity="75000" />
+			<capacity fillType="LETTUCE"    		capacity="125500" />
+			<capacity fillType="TOMATO"    			capacity="125500" />
+			<capacity fillType="SUGAR"    			capacity="125500" />
+			<capacity fillType="MANURE"    			capacity="125500" />
+			<!-- out -->
+			<capacity fillType="SILAGE_ADDITIVE"	capacity="125500" />
+			<capacity fillType="YEAST"    			capacity="125500" />
+			<capacity fillType="FRUIT_MASH"    		capacity="125500" />
+			
+			<capacity fillType="WATER"    			capacity="75000" />
 			
 			<fillPlane fillType="WATER" node="waterFillLevel_mover" minY="0" maxY="0.3" />
         </storage>
@@ -142,40 +186,36 @@
 
     <i3dMappings>
         
-        <i3dMapping id="testArea1Start" 					node="0>0|0|0|1" />
-        <i3dMapping id="testArea1End" 						node="0>0|0|0|1|0" />
+        <i3dMapping id="testArea1Start" 					node="0>0|0|1" />
+        <i3dMapping id="testArea1End" 						node="0>0|0|1|0" />
 		
-        <i3dMapping id="clearArea1Start" 					node="0>0|0|1|1" />
-        <i3dMapping id="clearArea1Width" 					node="0>0|0|1|1|0" />
-        <i3dMapping id="clearArea1Height" 					node="0>0|0|1|1|1" />
+        <i3dMapping id="clearArea1Start" 					node="0>0|1|1" />
+        <i3dMapping id="clearArea1Width" 					node="0>0|1|1|0" />
+        <i3dMapping id="clearArea1Height" 					node="0>0|1|1|1" />
 		
-        <i3dMapping id="levelArea01Start" 					node="0>0|0|2|1" />
-        <i3dMapping id="levelArea01Width" 					node="0>0|0|2|1|0" />
-        <i3dMapping id="levelArea01Height" 					node="0>0|0|2|1|1" />
+        <i3dMapping id="levelArea01Start" 					node="0>0|2|1" />
+        <i3dMapping id="levelArea01Width" 					node="0>0|2|1|0" />
+        <i3dMapping id="levelArea01Height" 					node="0>0|2|1|1" />
 		
-        <i3dMapping id="indoorArea1Start" 					node="0>0|0|3|6" />
-        <i3dMapping id="indoorArea1Width" 					node="0>0|0|3|6|0" />
-        <i3dMapping id="indoorArea1Height" 					node="0>0|0|3|6|1" />
+        <i3dMapping id="indoorArea1Start" 					node="0>0|3|5" />
+        <i3dMapping id="indoorArea1Width" 					node="0>0|3|5|0" />
+        <i3dMapping id="indoorArea1Height" 					node="0>0|3|5|1" />
 		
-        <i3dMapping id="indoorArea2Start" 					node="0>0|0|3|7" />
-        <i3dMapping id="indoorArea2Width" 					node="0>0|0|3|7|0" />
-        <i3dMapping id="indoorArea2Height" 					node="0>0|0|3|7|1" />
+        <i3dMapping id="indoorArea2Start" 					node="0>0|3|6" />
+        <i3dMapping id="indoorArea2Width" 					node="0>0|3|6|0" />
+        <i3dMapping id="indoorArea2Height" 					node="0>0|3|6|1" />
 		
-        <i3dMapping id="indoorArea3Start" 					node="0>0|0|3|8" />
-        <i3dMapping id="indoorArea3Width" 					node="0>0|0|3|8|0" />
-        <i3dMapping id="indoorArea3Height" 					node="0>0|0|3|8|1" />
+        <i3dMapping id="indoorArea3Start" 					node="0>0|3|7" />
+        <i3dMapping id="indoorArea3Width" 					node="0>0|3|7|0" />
+        <i3dMapping id="indoorArea3Height" 					node="0>0|3|7|1" />
 		
-        <i3dMapping id="indoorArea4Start" 					node="0>0|0|3|9" />
-        <i3dMapping id="indoorArea4Width" 					node="0>0|0|3|9|0" />
-        <i3dMapping id="indoorArea4Height" 					node="0>0|0|3|9|1" />
+        <i3dMapping id="indoorArea4Start" 					node="0>0|3|8" />
+        <i3dMapping id="indoorArea4Width" 					node="0>0|3|8|0" />
+        <i3dMapping id="indoorArea4Height" 					node="0>0|3|8|1" />
 		
-        <i3dMapping id="indoorArea5Start" 					node="0>0|0|3|10" />
-        <i3dMapping id="indoorArea5Width" 					node="0>0|0|3|10|0" />
-        <i3dMapping id="indoorArea5Height" 					node="0>0|0|3|10|1" />
-		
-        <i3dMapping id="indoorArea6Start" 					node="0>0|0|3|11" />
-        <i3dMapping id="indoorArea6Width" 					node="0>0|0|3|11|0" />
-        <i3dMapping id="indoorArea6Height" 					node="0>0|0|3|11|1" />
+        <i3dMapping id="indoorArea5Start" 					node="0>0|3|9" />
+        <i3dMapping id="indoorArea5Width" 					node="0>0|3|9|0" />
+        <i3dMapping id="indoorArea5Height" 					node="0>0|3|9|1" />
 		
         <i3dMapping id="unloadTriggerMarker_solid" 			node="0>1|0" />
         <i3dMapping id="unloadTriggerMarker_liquid" 		node="0>1|1" />
@@ -195,10 +235,6 @@
         <i3dMapping id="spawnSpace1end" 					node="0>4|0|0" />
         <i3dMapping id="spawnSpace2start" 					node="0>4|1" />
         <i3dMapping id="spawnSpace2end" 					node="0>4|1|0" />
-        <i3dMapping id="spawnSpace3start" 					node="0>4|2" />
-        <i3dMapping id="spawnSpace3end" 					node="0>4|2|0" />
-        <i3dMapping id="spawnSpace4start" 					node="0>4|3" />
-        <i3dMapping id="spawnSpace4end" 					node="0>4|3|0" />
 		
         <i3dMapping id="waterFillLevel_mover" 				node="0>5|2|0|0|1" />
 		
