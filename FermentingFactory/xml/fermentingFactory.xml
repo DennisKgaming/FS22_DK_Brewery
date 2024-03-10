@@ -116,11 +116,11 @@
 			
 			<production id="SILAGE_ADDITIVE_FACTORY" name="Silage Additive" cyclesPerHour="3" costsPerActiveHour="20">
                 <inputs>
-                    <input fillType="STRAWBERRY" 			amount="200" />
+                    <input fillType="STRAWBERRY"		amount="200" />
                     <input fillType="LETTUCE" 			amount="200" />
                     <input fillType="TOMATO" 			amount="200" />
-                    <input fillType="YEAST" 		amount="10" />
-                    <input fillType="WATER" 		amount="600" />
+                    <input fillType="YEAST" 			amount="10" />
+                    <input fillType="WATER" 			amount="600" />
                     <input fillType="SUGAR" 			amount="200" />
                </inputs>
                <outputs>
@@ -143,8 +143,8 @@
 
         <sellingStation node="sellingStation" appearsOnStats="false" supportsExtension="false" allowMissions="false" hideFromPricesMenu="true">
 
-            <unloadTrigger exactFillRootNode="unloadTriggerBunker"       fillTypes="STRAWBERRY LETTUCE TOMATO SUGAR" />
-            <unloadTrigger fillTypes="STRAWBERRY LETTUCE TOMATO SUGAR">
+            <unloadTrigger exactFillRootNode="unloadTriggerBunker"       fillTypes="STRAWBERRY LETTUCE TOMATO SUGAR YEAST" />
+            <unloadTrigger fillTypes="STRAWBERRY LETTUCE TOMATO SUGAR YEAST">
                 <baleTrigger triggerNode="baleTriggerBunker" />
             </unloadTrigger>
 
@@ -165,7 +165,7 @@
 			<capacity fillType="LETTUCE"    		capacity="125500" />
 			<capacity fillType="TOMATO"    			capacity="125500" />
 			<capacity fillType="SUGAR"    			capacity="125500" />
-			<capacity fillType="MANURE"    			capacity="125500" />
+			<!-- <capacity fillType="MANURE"    			capacity="125500" /> -->
 			<!-- out -->
 			<capacity fillType="SILAGE_ADDITIVE"	capacity="125500" />
 			<capacity fillType="YEAST"    			capacity="125500" />
