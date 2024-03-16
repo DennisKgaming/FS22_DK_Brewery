@@ -71,7 +71,7 @@
 
     <ai>
         <updateAreas>
-            <updateArea startNode="clearArea1Start" endNode="clearArea1Start" /><!-- @todo check if endnote is correct -->
+            <updateArea startNode="clearArea1Start" endNode="clearArea1Start" />
         </updateAreas>
     </ai>
 
@@ -87,6 +87,13 @@
     <hotspots>
         <hotspot type="PRODUCTION_POINT" linkNode="mapPosition" teleportNode="mapPosition"/>
     </hotspots>
+	
+	<dynamicallyLoadedParts>
+		<dynamicallyLoadedPart node="0" linkNode="tankStation" 			filename="dynamicParts/waterTank/waterTank.i3d" />
+		
+		<!-- <dynamicallyLoadedPart node="0" linkNode="chainLinkFence_01" 	filename="dynamicParts/chainlinkFence/chainlinkFence.i3d" /> -->
+		
+	</dynamicallyLoadedParts>
 
     <productionPoint>
         <productions sharedThroughputCapacity="false">
@@ -212,6 +219,10 @@
         <i3dMapping id="spawnSpace1start" 					node="0>5|1" />
 		
         <i3dMapping id="playerTrigger" 						node="0>6" />
+		
+        <i3dMapping id="tankStation" 						node="0>13|0" />
+		
+        <!-- <i3dMapping id="chainLinkFence_01" 					node="0>13|1|0" /> -->
 				
     </i3dMappings>
 </placeable>
