@@ -139,6 +139,8 @@
             <active template="dairyWork" linkNode="0>" outerRadius="50"/>
         </sounds>
     </productionPoint>
+	
+	<incomePerHour>10</incomePerHour>
 
     <i3dMappings>
         

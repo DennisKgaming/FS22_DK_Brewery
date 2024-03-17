@@ -184,6 +184,8 @@
         </sounds>
     </productionPoint>
 
+	<incomePerHour>10</incomePerHour>
+
     <i3dMappings>
         
         <i3dMapping id="testArea1Start" 					node="0>0|0|1" />
