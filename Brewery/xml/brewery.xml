@@ -182,6 +182,10 @@
     </productionPoint>
 
 	<incomePerHour>10</incomePerHour>
+	
+	<effectNodes>
+		<effectNode effectNode="smoke" materialType="smoke" />
+	</effectNodes>
 
     <i3dMappings>
         
@@ -221,6 +225,8 @@
         <i3dMapping id="spawnSpace1start" 					node="0>5|1" />
 		
         <i3dMapping id="playerTrigger" 						node="0>6" />
+		
+        <i3dMapping id="smoke" 								node="0>7|0|0" />
 		
         <i3dMapping id="tankStation" 						node="0>13|0" />
 		
