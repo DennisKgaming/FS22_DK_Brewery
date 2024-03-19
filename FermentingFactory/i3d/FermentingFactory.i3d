@@ -7,9 +7,9 @@
 
   <Files>
     <File fileId="167" filename="$data/maps/mapAlpine/textures/props/lightPole_emissive.png"/>
-    <File fileId="183" filename="$data/maps/mapFR/textures/props/parkingLines_diffuse.png"/>
-    <File fileId="184" filename="$data/maps/mapFR/textures/props/parkingLines_normal.png"/>
-    <File fileId="185" filename="$data/maps/mapFR/textures/props/parkingLines_specular.png"/>
+    <File fileId="198" filename="$data/maps/mapFR/textures/props/parkingLines_diffuse.png"/>
+    <File fileId="199" filename="$data/maps/mapFR/textures/props/parkingLines_normal.png"/>
+    <File fileId="200" filename="$data/maps/mapFR/textures/props/parkingLines_specular.png"/>
     <File fileId="173" filename="$data/maps/textures/shared/default_normal.png"/>
     <File fileId="92" filename="$data/maps/textures/shared/default_specular.png"/>
     <File fileId="70" filename="$data/placeables/lizard/manureHeap/manureConcrete_diffuse.png"/>
@@ -22,16 +22,16 @@
     <File fileId="168" filename="$data/shaders/lightBeamShader.xml"/>
     <File fileId="24" filename="$data/shaders/placeableShader.xml"/>
     <File fileId="75" filename="$data/shaders/vehicleShader.xml"/>
-    <File fileId="196" filename="$data/shared/assets/assetLibraryDecals_diffuse.dds"/>
-    <File fileId="197" filename="$data/shared/assets/assetLibraryDecals_normal.dds"/>
-    <File fileId="198" filename="$data/shared/assets/assetLibraryDecals_vmask.dds"/>
+    <File fileId="211" filename="$data/shared/assets/assetLibraryDecals_diffuse.dds"/>
+    <File fileId="212" filename="$data/shared/assets/assetLibraryDecals_normal.dds"/>
+    <File fileId="213" filename="$data/shared/assets/assetLibraryDecals_vmask.dds"/>
     <File fileId="21" filename="$data/shared/assets/lights/terraLed/fluorescentTube50W_diffuse.png"/>
     <File fileId="26" filename="$data/shared/assets/lights/terraLed/fluorescentTube50W_emissive.png"/>
     <File fileId="22" filename="$data/shared/assets/lights/terraLed/fluorescentTube50W_normal.png"/>
     <File fileId="23" filename="$data/shared/assets/lights/terraLed/fluorescentTube50W_specular.png"/>
     <File fileId="30" filename="$data/shared/assets/lights/terraLed/terraLedDecal_diffuse.png"/>
     <File fileId="67" filename="$data/shared/clearPlastic_diffuse.dds"/>
-    <File fileId="201" filename="$data/shared/defaultPlastic_vmask.dds"/>
+    <File fileId="216" filename="$data/shared/defaultPlastic_vmask.dds"/>
     <File fileId="27" filename="$data/shared/default_normal.png"/>
     <File fileId="165" filename="$data/shared/default_specular.png"/>
     <File fileId="166" filename="$data/shared/window_diffuse.png"/>
@@ -124,9 +124,9 @@
     <File fileId="130" filename="../textures/props/plasticBarrier_diffuse.png"/>
     <File fileId="131" filename="../textures/props/plasticBarrier_normal.png"/>
     <File fileId="132" filename="../textures/props/plasticBarrier_specular.png"/>
-    <File fileId="187" filename="../textures/props/portManholeDE_diffuse.png"/>
-    <File fileId="188" filename="../textures/props/portManholeDE_normal.png"/>
-    <File fileId="189" filename="../textures/props/portManholeDE_specular.png"/>
+    <File fileId="202" filename="../textures/props/portManholeDE_diffuse.png"/>
+    <File fileId="203" filename="../textures/props/portManholeDE_normal.png"/>
+    <File fileId="204" filename="../textures/props/portManholeDE_specular.png"/>
     <File fileId="143" filename="../textures/props/propsDecalsUS_diffuse.png"/>
     <File fileId="127" filename="../textures/props/propsDecals_diffuse.png"/>
     <File fileId="129" filename="../textures/props/propsDecals_specular.png"/>
@@ -150,27 +150,37 @@
     <File fileId="73" filename="../textures/waterTrailer_blue_diffuse.png"/>
     <File fileId="82" filename="../textures/window_diffuse.png"/>
     <File fileId="83" filename="../textures/window_specular.png"/>
+    <File fileId="192" filename="../../shaders/buildingShader.xml"/>
     <File fileId="177" filename="../../textures/buildingDetails_diffuse.dds"/>
     <File fileId="178" filename="../../textures/buildingDetails_normal.dds"/>
     <File fileId="179" filename="../../textures/buildingDetails_specular.dds"/>
-    <File fileId="193" filename="../../textures/cell.dds"/>
-    <File fileId="194" filename="../../textures/cell_normal.dds"/>
-    <File fileId="195" filename="../../textures/cell_specular.dds"/>
+    <File fileId="189" filename="../../textures/buildingsArray2_diffuse.png"/>
+    <File fileId="190" filename="../../textures/buildingsArray2_normal.png"/>
+    <File fileId="191" filename="../../textures/buildingsArray2_specular.png"/>
+    <File fileId="208" filename="../../textures/cell.dds"/>
+    <File fileId="209" filename="../../textures/cell_normal.dds"/>
+    <File fileId="210" filename="../../textures/cell_specular.dds"/>
     <File fileId="180" filename="../../textures/chainlinkFence_diffuse.dds"/>
     <File fileId="181" filename="../../textures/chainlinkFence_normal.dds"/>
     <File fileId="182" filename="../../textures/chainlinkFence_specular.dds"/>
-    <File fileId="202" filename="../../textures/lizardENDERGY.dds"/>
-    <File fileId="203" filename="../../textures/lizardENDERGY_normal.dds"/>
-    <File fileId="191" filename="../../textures/metal_normal.dds"/>
-    <File fileId="192" filename="../../textures/metal_specular.dds"/>
-    <File fileId="190" filename="../../textures/metalczorny.dds"/>
-    <File fileId="199" filename="../../textures/metalstebny.dds"/>
-    <File fileId="186" filename="../../textures/props/decalOilSlicks_diffuse.png"/>
+    <File fileId="183" filename="../../textures/fencesDE_diffuse.png"/>
+    <File fileId="184" filename="../../textures/fencesDE_normal.png"/>
+    <File fileId="185" filename="../../textures/fencesDE_specular.png"/>
+    <File fileId="217" filename="../../textures/lizardENDERGY.dds"/>
+    <File fileId="218" filename="../../textures/lizardENDERGY_normal.dds"/>
+    <File fileId="206" filename="../../textures/metal_normal.dds"/>
+    <File fileId="207" filename="../../textures/metal_specular.dds"/>
+    <File fileId="205" filename="../../textures/metalczorny.dds"/>
+    <File fileId="214" filename="../../textures/metalstebny.dds"/>
+    <File fileId="201" filename="../../textures/props/decalOilSlicks_diffuse.png"/>
     <File fileId="19" filename="../../textures/shared/wheatBottom_diffuse.dds"/>
     <File fileId="20" filename="../../textures/shared/wheatBottom_normal.dds"/>
     <File fileId="162" filename="../../textures/streetLamps_diffuse.png"/>
     <File fileId="163" filename="../../textures/streetLamps_normal.png"/>
     <File fileId="164" filename="../../textures/streetLamps_specular.png"/>
+    <File fileId="186" filename="../../textures/woodCage_diffuse.dds"/>
+    <File fileId="187" filename="../../textures/woodCage_normal.dds"/>
+    <File fileId="188" filename="../../textures/woodCage_specular.dds"/>
   </Files>
 
 
@@ -206,6 +216,11 @@
     <Material name="acmat_1" materialId="14">
       <Texture fileId="34"/>
     </Material>
+    <Material name="appleTreeBlossom_mat1" materialId="1287">
+      <Texture fileId="186"/>
+      <Normalmap fileId="187"/>
+      <Glossmap fileId="188"/>
+    </Material>
     <Material name="asphalt_ca_prefab_light" materialId="15" specularColor="0.247059 1 0.247059">
       <Texture fileId="117"/>
     </Material>
@@ -228,6 +243,11 @@
     <Material name="buildingsArray_mat" materialId="20" alphaBlending="true" customShaderId="91">
       <Texture fileId="90"/>
     </Material>
+    <Material name="buildingsArray_mat" materialId="1288" customShaderId="192" customShaderVariation="USE_TEXTURE_ARRAY">
+      <Texture fileId="189"/>
+      <Normalmap fileId="190"/>
+      <Glossmap fileId="191"/>
+    </Material>
     <Material name="button" materialId="21">
       <Texture fileId="96"/>
     </Material>
@@ -237,9 +257,9 @@
       <Glossmap fileId="155"/>
     </Material>
     <Material name="cell" materialId="23">
-      <Texture fileId="193"/>
-      <Normalmap fileId="194"/>
-      <Glossmap fileId="195"/>
+      <Texture fileId="208"/>
+      <Normalmap fileId="209"/>
+      <Glossmap fileId="210"/>
     </Material>
     <Material name="cellularAntenna_mat" materialId="24" customShaderId="91">
       <Texture fileId="147"/>
@@ -272,14 +292,14 @@
       <Texture fileId="44"/>
     </Material>
     <Material name="czrny" materialId="31">
-      <Texture fileId="190"/>
-      <Normalmap fileId="191"/>
-      <Glossmap fileId="192"/>
+      <Texture fileId="205"/>
+      <Normalmap fileId="206"/>
+      <Glossmap fileId="207"/>
     </Material>
     <Material name="dark" materialId="32" diffuseColor="0.129412 0.129412 0.129412 1" specularColor="0.329412 1 0.329412">
     </Material>
     <Material name="decalTrashPapers_mat" materialId="33" alphaBlending="true" customShaderId="32">
-      <Texture fileId="186"/>
+      <Texture fileId="201"/>
     </Material>
     <Material name="Defiault.010" materialId="34" diffuseColor="0.403922 0.403922 0.403922 1">
     </Material>
@@ -291,6 +311,11 @@
     <Material name="exhaust_mat" materialId="36" diffuseColor="0.494118 0.494118 0.494118 1" alphaBlending="true" customShaderId="68">
       <Refractionmap coeff="1" bumpScale="0.1"/>
       <CustomParameter name="exhaustColor" value="0.5 0.5 0.5 1.5"/>
+    </Material>
+    <Material name="fencesDE_mat" materialId="1289">
+      <Texture fileId="183"/>
+      <Normalmap fileId="184"/>
+      <Glossmap fileId="185"/>
     </Material>
     <Material name="flieglTMK266Bull_mat" materialId="37" customShaderId="75">
       <Texture fileId="85"/>
@@ -354,7 +379,7 @@
       <Normalmap fileId="36"/>
     </Material>
     <Material name="guma" materialId="54" diffuseColor="0.8 0.8 0.8 1" customShaderId="75" customShaderVariation="colorMask">
-      <Glossmap fileId="201"/>
+      <Glossmap fileId="216"/>
     </Material>
     <Material name="i3d_default_material" materialId="55" diffuseColor="0.8 0.8 0.8 1" specularColor="0.6 1 0" customShaderId="75" customShaderVariation="colorMask">
       <CustomParameter name="colorMat0" value="0.2428 0.2428 0.2428 4"/>
@@ -392,8 +417,8 @@
       <CustomParameter name="lightControl" value="10 0 0 0"/>
     </Material>
     <Material name="LizardEnegy" materialId="65" specularColor="0.494118 1 0">
-      <Texture fileId="202"/>
-      <Normalmap fileId="203"/>
+      <Texture fileId="217"/>
+      <Normalmap fileId="218"/>
     </Material>
     <Material name="logo_01_em_mat" materialId="66" diffuseColor="1 1 1 1" specularColor="0.494118 1 0">
       <Emissivemap fileId="176"/>
@@ -439,9 +464,9 @@
       <Emissivemap fileId="63"/>
     </Material>
     <Material name="parkingLines_mat" materialId="78" alphaBlending="true" customShaderId="32">
-      <Texture fileId="183"/>
-      <Normalmap fileId="184"/>
-      <Glossmap fileId="185"/>
+      <Texture fileId="198"/>
+      <Normalmap fileId="199"/>
+      <Glossmap fileId="200"/>
     </Material>
     <Material name="PipeWork" materialId="79" diffuseColor="1 1 1 1" specularColor="0.894118 1 0.894118">
       <Normalmap fileId="88"/>
@@ -457,9 +482,9 @@
       <Glossmap fileId="158"/>
     </Material>
     <Material name="portManholeDE_mat" materialId="82">
-      <Texture fileId="187"/>
-      <Normalmap fileId="188"/>
-      <Glossmap fileId="189"/>
+      <Texture fileId="202"/>
+      <Normalmap fileId="203"/>
+      <Glossmap fileId="204"/>
     </Material>
     <Material name="propsDecals_mat" materialId="83" alphaBlending="true" customShaderId="32">
       <Texture fileId="127"/>
@@ -517,9 +542,9 @@
       <Texture fileId="116"/>
     </Material>
     <Material name="sruby" materialId="99" customShaderId="75" customShaderVariation="colorMask">
-      <Texture fileId="196"/>
-      <Normalmap fileId="197"/>
-      <Glossmap fileId="198"/>
+      <Texture fileId="211"/>
+      <Normalmap fileId="212"/>
+      <Glossmap fileId="213"/>
     </Material>
     <Material name="streetLamps_mat" materialId="100" customShaderId="24">
       <Texture fileId="162"/>
@@ -534,8 +559,8 @@
       <CustomParameter name="lightControl" value="15 0 0 0"/>
     </Material>
     <Material name="szaryt" materialId="102" specularColor="0.27451 1 0.219608">
-      <Texture fileId="199"/>
-      <Normalmap fileId="191"/>
+      <Texture fileId="214"/>
+      <Normalmap fileId="206"/>
     </Material>
     <Material name="szklo" materialId="103">
       <Texture fileId="166"/>
@@ -625,23 +650,23 @@
       <TransformGroup name="fermentingFactory" clipDistance="350" nodeId="265">
         <TransformGroup name="areaDefinitions" nodeId="266">
           <TransformGroup name="testArea" nodeId="267">
-            <Shape shapeId="1" name="testArea" translation="0 0 14.0701" scale="80 1 70.0272" visibility="false" nodeId="268" materialIds="113" distanceBlending="false"/>
-            <TransformGroup name="testArea1Start" translation="-39.9623 0 49.0516" nodeId="269">
-              <TransformGroup name="testArea1End" translation="79.9626 0 -70.0221" nodeId="270"/>
+            <Shape shapeId="1" name="testArea" translation="0 0 18.3713" scale="80 1 78.8679" visibility="false" nodeId="268" materialIds="113" distanceBlending="false"/>
+            <TransformGroup name="testArea1Start" translation="-39.9623 0 57.6331" nodeId="269">
+              <TransformGroup name="testArea1End" translation="79.9626 0 -78.4186" nodeId="270"/>
             </TransformGroup>
           </TransformGroup>
           <TransformGroup name="clearArea" nodeId="271">
             <Shape shapeId="1" name="clearArea" translation="0 0 14.0701" scale="80 1 70.0272" visibility="false" nodeId="272" materialIds="113" distanceBlending="false"/>
-            <TransformGroup name="clearArea1Start" translation="-40 0 49.0812" nodeId="273">
+            <TransformGroup name="clearArea1Start" translation="-40 0 57.6954" nodeId="273">
               <TransformGroup name="clearArea1Width" translation="80 0 0" nodeId="274"/>
-              <TransformGroup name="clearArea1Height" translation="0 0 -70" nodeId="275"/>
+              <TransformGroup name="clearArea1Height" translation="0 0 -78.5935" nodeId="275"/>
             </TransformGroup>
           </TransformGroup>
           <TransformGroup name="levelArea" nodeId="276">
             <Shape shapeId="1" name="levelArea" translation="0 0 14.0701" scale="80 1 70.0272" visibility="false" nodeId="277" materialIds="113" distanceBlending="false"/>
-            <TransformGroup name="levelArea01Start" translation="-40 0 49.0812" nodeId="278">
+            <TransformGroup name="levelArea01Start" translation="-40 0 57.0667" nodeId="278">
               <TransformGroup name="levelArea01Width" translation="80 0 0" nodeId="279"/>
-              <TransformGroup name="levelArea01Height" translation="0 0 -70" nodeId="280"/>
+              <TransformGroup name="levelArea01Height" translation="0 0 -78.1416" nodeId="280"/>
             </TransformGroup>
           </TransformGroup>
           <TransformGroup name="indoorArea" nodeId="281">
@@ -1253,7 +1278,7 @@
               </Shape>
             </TransformGroup>
             <TransformGroup name="streetLights" nodeId="749">
-              <Shape shapeId="107" name="streetLamp01" lockedgroup="true" translation="-11.9418 0.0264816 48.1531" rotation="180 90 180" clipDistance="400" nodeId="750" materialIds="100" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="107" name="streetLamp01" lockedgroup="true" translation="-17.648 0.0264816 47.9139" rotation="180 90 180" clipDistance="400" nodeId="750" materialIds="100" castsShadows="true" receiveShadows="true">
                 <TransformGroup name="illum" clipDistance="150" nodeId="751">
                   <Shape shapeId="108" name="streetLamp01illum" clipDistance="200" nodeId="752" materialIds="101" weatherRequiredMask="64"/>
                   <TransformGroup name="realLights" clipDistance="150" nodeId="753">
@@ -1603,7 +1628,7 @@
               <Shape shapeId="130" name="chainLinkFenceMiddle" translation="5.64949 -6.05336e-07 0.159872" rotation="180 0 180" static="true" clipDistance="5000" nodeId="969" materialIds="19" castsShadows="true" receiveShadows="true">
                 <Shape shapeId="131" name="middleFence" static="true" clipDistance="5000" nodeId="970" materialIds="25" castsShadows="true" receiveShadows="true"/>
               </Shape>
-              <Shape shapeId="130" name="chainLinkFenceMiddle" translation="9.65215 -1.20972e-06 0.159864" rotation="180 0 180" static="true" clipDistance="5000" nodeId="971" materialIds="19" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="130" name="chainLinkFenceMiddle" translation="9.65215 -1.20479e-06 0.216245" rotation="-180 0.932724 -180" static="true" clipDistance="5000" nodeId="971" materialIds="19" castsShadows="true" receiveShadows="true">
                 <Shape shapeId="131" name="middleFence" static="true" clipDistance="5000" nodeId="972" materialIds="25" castsShadows="true" receiveShadows="true"/>
               </Shape>
               <Shape shapeId="130" name="chainLinkFenceMiddle" translation="-6.3711 1.20972e-06 0.159899" rotation="180 -0.00012855 180" static="true" clipDistance="5000" nodeId="973" materialIds="19" castsShadows="true" receiveShadows="true">
@@ -1826,252 +1851,260 @@
               <Shape shapeId="130" name="chainLinkFenceMiddle" translation="9.65215 -1.20972e-06 0.159864" rotation="180 0 180" static="true" clipDistance="5000" nodeId="1113" materialIds="19" castsShadows="true" receiveShadows="true">
                 <Shape shapeId="131" name="middleFence" static="true" clipDistance="5000" nodeId="1114" materialIds="25" castsShadows="true" receiveShadows="true"/>
               </Shape>
-              <Shape shapeId="130" name="chainLinkFenceMiddle" translation="-6.3711 1.20972e-06 0.159899" rotation="180 -0.00012855 180" static="true" clipDistance="5000" nodeId="1115" materialIds="19" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="130" name="chainLinkFenceMiddle" translation="-6.3711 1.20972e-06 0.159899" rotation="180 -0.00012855 180" scale="0.794991 1 1" static="true" clipDistance="5000" nodeId="1115" materialIds="19" castsShadows="true" receiveShadows="true">
                 <Shape shapeId="131" name="middleFence" static="true" clipDistance="5000" nodeId="1116" materialIds="25" castsShadows="true" receiveShadows="true"/>
               </Shape>
             </TransformGroup>
             <TransformGroup name="chainLinkFenceMiddlecroup" translation="-10.1113 -3.17805e-06 48.6259" rotation="-180 0 -180" nodeId="1117">
-              <Shape shapeId="130" name="chainLinkFenceMiddle" translation="1.64053 0 0.159882" rotation="-1.86053e-06 0 2.83681e-08" static="true" clipDistance="5000" nodeId="1118" materialIds="19" castsShadows="true" receiveShadows="true">
-                <Shape shapeId="131" name="middleFence" static="true" clipDistance="5000" nodeId="1119" materialIds="25" castsShadows="true" receiveShadows="true"/>
-              </Shape>
-              <Shape shapeId="130" name="chainLinkFenceMiddle" translation="5.64949 -6.05336e-07 0.159872" rotation="180 0 180" static="true" clipDistance="5000" nodeId="1120" materialIds="19" castsShadows="true" receiveShadows="true">
-                <Shape shapeId="131" name="middleFence" static="true" clipDistance="5000" nodeId="1121" materialIds="25" castsShadows="true" receiveShadows="true"/>
-              </Shape>
-              <Shape shapeId="130" name="chainLinkFenceMiddle" translation="9.65215 -1.20972e-06 0.159864" rotation="180 0 180" static="true" clipDistance="5000" nodeId="1122" materialIds="19" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="130" name="chainLinkFenceMiddle" translation="10.496 -1.14473e-06 0.0594092" rotation="-180 -1.95574 -180" scale="0.76857 1 1" static="true" clipDistance="5000" nodeId="1122" materialIds="19" castsShadows="true" receiveShadows="true">
                 <Shape shapeId="131" name="middleFence" static="true" clipDistance="5000" nodeId="1123" materialIds="25" castsShadows="true" receiveShadows="true"/>
               </Shape>
             </TransformGroup>
           </TransformGroup>
-          <Shape shapeId="132" name="parkingLines08" translation="11.2637 -4.54516e-05 45.261" rotation="180 0 -180" clipDistance="300" nodeId="1124" materialIds="78" receiveShadows="true"/>
+          <TransformGroup name="SlideGate02" translation="-9.98804 0.130553 48.2766" rotation="-3.28066e-05 -0 -3.27971e-05" scale="1 1.15 1" static="true" clipDistance="200" nodeId="1296">
+            <Shape shapeId="132" name="SlideGate01_gate" translation="7.75 0 0" nodeId="1297" materialIds="1289" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="132" name="slideGateMetal" translation="-7.66736 0 0" nodeId="1298" materialIds="1289" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="133" name="col" translation="-7.69309 1.53744 0" visibility="false" kinematic="true" clipDistance="100" nodeId="1299" materialIds="1287" nonRenderable="true" distanceBlending="false"/>
+            </Shape>
+            <Shape shapeId="134" name="SlideGate01_trigger" static="true" trigger="true" collisionMask="11534336" nodeId="1300" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="135" name="slideGateMetal_post" translation="7.7834 0 0.149046" scale="1 1 0.620523" static="true" nodeId="1301" materialIds="1289" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="135" name="slideGateMetal_post" translation="7.7834 0 -0.139774" scale="1 1 0.620523" static="true" nodeId="1302" materialIds="1289" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="135" name="slideGateMetal_post" translation="-7.46 0 0.165077" scale="1 1 0.620523" static="true" nodeId="1303" materialIds="1289" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="135" name="slideGateMetal_post" translation="-22.5294 0 0.165077" scale="1 1 0.620523" static="true" nodeId="1304" materialIds="1289" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="135" name="slideGateMetal_post" translation="-7.45717 0 -0.139774" scale="1 1 0.620523" static="true" nodeId="1305" materialIds="1289" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="135" name="slideGateMetal_post" translation="-22.5164 0 -0.139774" scale="1 1 0.620523" static="true" nodeId="1306" materialIds="1289" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="136" name="gateFloorRail" translation="-7.3264 -0.122359 -0.000259608" rotation="0 90 0" scale="1 0.48 1.24871" static="true" clipDistance="300" nodeId="1307" materialIds="1288" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <Shape shapeId="137" name="parkingLines08" translation="11.2637 -4.54516e-05 45.261" rotation="180 0 -180" clipDistance="300" nodeId="1124" materialIds="78" receiveShadows="true"/>
           <TransformGroup name="oilSpots_decals" translation="9.26319 0 2.28738" rotation="0 -5.39697 0" nodeId="1125">
-            <Shape shapeId="133" name="decalOilSlick03" translation="-33.3753 0.0164868 28.5143" rotation="180 -20.927 180" scale="9 1 9" clipDistance="80" nodeId="1126" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="133" name="decalOilSlick03" translation="-36.274 0.0164889 17.6009" rotation="180 -20.9272 180" scale="9 1 9" clipDistance="80" nodeId="1127" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="133" name="decalOilSlick03" translation="-34.1968 0.0164892 -13.1842" rotation="-2.04173e-06 37.1929 -1.21704e-06" scale="9 1 9" clipDistance="80" nodeId="1128" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="133" name="decalOilSlick03" translation="-41.2333 0.0164841 5.89624" rotation="-180 42.1926 -180" scale="9 1 9" clipDistance="80" nodeId="1129" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="133" name="decalOilSlick03" translation="-15.1182 0.0164877 7.34197" rotation="-180 2.61899 -180" scale="9 1 9" clipDistance="80" nodeId="1130" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="133" name="decalOilSlick03" translation="20.7439 0.0164835 4.32189" rotation="-180 2.619 -180" scale="9 1 9" clipDistance="80" nodeId="1131" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="133" name="decalOilSlick03" translation="13.0264 0.0164831 -10.8633" rotation="-180 2.619 -180" scale="9 1 9" clipDistance="80" nodeId="1132" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="133" name="decalOilSlick03" translation="5.70766 0.0164806 37.5673" rotation="7.49427e-06 89.0067 7.49275e-06" scale="9 1 9" clipDistance="80" nodeId="1133" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="133" name="decalOilSlick03" translation="22.9758 0.0164807 34.1971" rotation="7.49427e-06 89.0067 7.49275e-06" scale="9 1 9" clipDistance="80" nodeId="1134" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="133" name="decalOilSlick03" translation="-7.81601 0.0164807 26.1683" rotation="7.49427e-06 89.0067 7.49275e-06" scale="9 1 9" clipDistance="80" nodeId="1135" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="133" name="decalOilSlick03" translation="-25.0912 0.0164807 25.8688" rotation="7.49427e-06 89.0067 7.49275e-06" scale="9 1 9" clipDistance="80" nodeId="1136" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="133" name="decalOilSlick03" translation="-22.7744 0.0164807 34.6878" rotation="2.20497e-07 53.8943 1.77752e-07" scale="9 1 9" clipDistance="80" nodeId="1137" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="133" name="decalOilSlick03" translation="-6.38635 0.0164804 34.9627" rotation="-7.25739e-07 -6.96484 9.96091e-08" scale="9 1 9" clipDistance="80" nodeId="1138" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="133" name="decalOilSlick03" translation="10.2874 0.0164803 16.3572" rotation="-3.4957e-06 78.107 -3.40907e-06" scale="9 1 9" clipDistance="80" nodeId="1139" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="138" name="decalOilSlick03" translation="-33.3753 0.0164868 28.5143" rotation="180 -20.927 180" scale="9 1 9" clipDistance="80" nodeId="1126" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="138" name="decalOilSlick03" translation="-36.274 0.0164889 17.6009" rotation="180 -20.9272 180" scale="9 1 9" clipDistance="80" nodeId="1127" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="138" name="decalOilSlick03" translation="-34.1968 0.0164892 -13.1842" rotation="-2.04173e-06 37.1929 -1.21704e-06" scale="9 1 9" clipDistance="80" nodeId="1128" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="138" name="decalOilSlick03" translation="-41.2333 0.0164841 5.89624" rotation="-180 42.1926 -180" scale="9 1 9" clipDistance="80" nodeId="1129" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="138" name="decalOilSlick03" translation="-15.1182 0.0164877 7.34197" rotation="-180 2.61899 -180" scale="9 1 9" clipDistance="80" nodeId="1130" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="138" name="decalOilSlick03" translation="20.7439 0.0164835 4.32189" rotation="-180 2.619 -180" scale="9 1 9" clipDistance="80" nodeId="1131" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="138" name="decalOilSlick03" translation="13.0264 0.0164831 -10.8633" rotation="-180 2.619 -180" scale="9 1 9" clipDistance="80" nodeId="1132" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="138" name="decalOilSlick03" translation="5.70766 0.0164806 37.5673" rotation="7.49427e-06 89.0067 7.49275e-06" scale="9 1 9" clipDistance="80" nodeId="1133" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="138" name="decalOilSlick03" translation="22.9758 0.0164807 34.1971" rotation="7.49427e-06 89.0067 7.49275e-06" scale="9 1 9" clipDistance="80" nodeId="1134" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="138" name="decalOilSlick03" translation="-7.81601 0.0164807 26.1683" rotation="7.49427e-06 89.0067 7.49275e-06" scale="9 1 9" clipDistance="80" nodeId="1135" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="138" name="decalOilSlick03" translation="-25.0912 0.0164807 25.8688" rotation="7.49427e-06 89.0067 7.49275e-06" scale="9 1 9" clipDistance="80" nodeId="1136" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="138" name="decalOilSlick03" translation="-22.7744 0.0164807 34.6878" rotation="2.20497e-07 53.8943 1.77752e-07" scale="9 1 9" clipDistance="80" nodeId="1137" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="138" name="decalOilSlick03" translation="-6.38635 0.0164804 34.9627" rotation="-7.25739e-07 -6.96484 9.96091e-08" scale="9 1 9" clipDistance="80" nodeId="1138" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="138" name="decalOilSlick03" translation="10.2874 0.0164803 16.3572" rotation="-3.4957e-06 78.107 -3.40907e-06" scale="9 1 9" clipDistance="80" nodeId="1139" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
           </TransformGroup>
           <TransformGroup name="manHoles" nodeId="1140">
-            <Shape shapeId="134" name="portManholeDE" translation="-26.7528 0.0264893 -12.5499" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1141" materialIds="82" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="135" name="col" visibility="false" static="true" density="0.0001" nodeId="1142" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="139" name="portManholeDE" translation="-26.7528 0.0264893 -12.5499" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1141" materialIds="82" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="140" name="col" visibility="false" static="true" density="0.0001" nodeId="1142" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
             </Shape>
-            <Shape shapeId="134" name="portManholeDE" translation="-34.3708 0.01 11.3436" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1143" materialIds="82" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="135" name="col" visibility="false" static="true" density="0.0001" nodeId="1144" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="139" name="portManholeDE" translation="-34.3708 0.01 11.3436" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1143" materialIds="82" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="140" name="col" visibility="false" static="true" density="0.0001" nodeId="1144" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
             </Shape>
-            <Shape shapeId="134" name="portManholeDE" translation="-26.3987 0.01 37.76" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1145" materialIds="82" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="135" name="col" visibility="false" static="true" density="0.0001" nodeId="1146" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="139" name="portManholeDE" translation="-26.3987 0.01 37.76" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1145" materialIds="82" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="140" name="col" visibility="false" static="true" density="0.0001" nodeId="1146" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
             </Shape>
-            <Shape shapeId="134" name="portManholeDE" translation="-6.42384 0.01 37.76" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1147" materialIds="82" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="135" name="col" visibility="false" static="true" density="0.0001" nodeId="1148" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="139" name="portManholeDE" translation="-6.42384 0.01 37.76" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1147" materialIds="82" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="140" name="col" visibility="false" static="true" density="0.0001" nodeId="1148" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
             </Shape>
-            <Shape shapeId="134" name="portManholeDE" translation="-6.42384 0.01 10.9857" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1149" materialIds="82" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="135" name="col" visibility="false" static="true" density="0.0001" nodeId="1150" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="139" name="portManholeDE" translation="-6.42384 0.01 10.9857" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1149" materialIds="82" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="140" name="col" visibility="false" static="true" density="0.0001" nodeId="1150" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
             </Shape>
-            <Shape shapeId="134" name="portManholeDE" translation="18.5698 0.01 37.76" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1151" materialIds="82" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="135" name="col" visibility="false" static="true" density="0.0001" nodeId="1152" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="139" name="portManholeDE" translation="18.5698 0.01 37.76" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1151" materialIds="82" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="140" name="col" visibility="false" static="true" density="0.0001" nodeId="1152" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
             </Shape>
-            <Shape shapeId="134" name="portManholeDE" translation="34.8249 0.01 37.76" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1153" materialIds="82" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="135" name="col" visibility="false" static="true" density="0.0001" nodeId="1154" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="139" name="portManholeDE" translation="34.8249 0.01 37.76" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1153" materialIds="82" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="140" name="col" visibility="false" static="true" density="0.0001" nodeId="1154" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
             </Shape>
-            <Shape shapeId="134" name="portManholeDE" translation="34.8249 0.01 10.5554" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1155" materialIds="82" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="135" name="col" visibility="false" static="true" density="0.0001" nodeId="1156" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="139" name="portManholeDE" translation="34.8249 0.01 10.5554" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1155" materialIds="82" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="140" name="col" visibility="false" static="true" density="0.0001" nodeId="1156" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
             </Shape>
-            <Shape shapeId="134" name="portManholeDE" translation="21.7357 0.01 -18.1552" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1157" materialIds="82" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="135" name="col" visibility="false" static="true" density="0.0001" nodeId="1158" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="139" name="portManholeDE" translation="21.7357 0.01 -18.1552" rotation="5.93404e-13 -0 -3.78166e-13" clipDistance="60" nodeId="1157" materialIds="82" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="140" name="col" visibility="false" static="true" density="0.0001" nodeId="1158" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
             </Shape>
           </TransformGroup>
           <TransformGroup name="solarCells" nodeId="1159">
             <TransformGroup name="solarCell_row" nodeId="1160">
               <TransformGroup name="solarCell" translation="-24.8165 14.2624 15.5307" nodeId="1161">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1162" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1163" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1164" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1162" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1163" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1164" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1165" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1165" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-21.7828 14.2624 15.5307" nodeId="1166">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1167" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1168" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1169" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1167" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1168" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1169" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1170" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1170" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-18.777 14.2624 15.5307" nodeId="1171">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1172" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1173" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1174" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1172" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1173" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1174" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1175" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1175" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-15.769 14.2624 15.5307" nodeId="1176">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1177" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1178" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1179" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1177" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1178" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1179" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1180" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1180" materialIds="55"/>
               </TransformGroup>
             </TransformGroup>
             <TransformGroup name="solarCell_row" translation="0 0 -1.7372" nodeId="1181">
               <TransformGroup name="solarCell" translation="-24.8165 14.2624 15.5307" nodeId="1182">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1183" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1184" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1185" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1183" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1184" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1185" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1186" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1186" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-21.7828 14.2624 15.5307" nodeId="1187">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1188" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1189" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1190" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1188" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1189" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1190" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1191" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1191" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-18.777 14.2624 15.5307" nodeId="1192">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1193" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1194" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1195" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1193" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1194" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1195" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1196" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1196" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-15.769 14.2624 15.5307" nodeId="1197">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1198" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1199" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1200" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1198" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1199" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1200" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1201" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1201" materialIds="55"/>
               </TransformGroup>
             </TransformGroup>
             <TransformGroup name="solarCell_row" translation="0 0 -3.42841" nodeId="1202">
               <TransformGroup name="solarCell" translation="-24.8165 14.2624 15.5307" nodeId="1203">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1204" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1205" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1206" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1204" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1205" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1206" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1207" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1207" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-21.7828 14.2624 15.5307" nodeId="1208">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1209" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1210" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1211" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1209" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1210" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1211" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1212" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1212" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-18.777 14.2624 15.5307" nodeId="1213">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1214" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1215" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1216" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1214" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1215" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1216" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1217" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1217" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-15.769 14.2624 15.5307" nodeId="1218">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1219" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1220" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1221" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1219" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1220" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1221" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1222" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1222" materialIds="55"/>
               </TransformGroup>
             </TransformGroup>
             <TransformGroup name="solarCell_row" translation="0 0 -5.33689" nodeId="1223">
               <TransformGroup name="solarCell" translation="-24.8165 14.2624 15.5307" nodeId="1224">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1225" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1226" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1227" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1225" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1226" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1227" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1228" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1228" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-21.7828 14.2624 15.5307" nodeId="1229">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1230" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1231" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1232" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1230" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1231" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1232" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1233" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1233" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-18.777 14.2624 15.5307" nodeId="1234">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1235" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1236" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1237" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1235" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1236" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1237" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1238" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1238" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-15.769 14.2624 15.5307" nodeId="1239">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1240" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1241" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1242" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1240" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1241" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1242" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1243" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1243" materialIds="55"/>
               </TransformGroup>
             </TransformGroup>
             <TransformGroup name="solarCell_row" translation="0 0 -7.14686" nodeId="1244">
               <TransformGroup name="solarCell" translation="-24.8165 14.2624 15.5307" nodeId="1245">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1246" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1247" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1248" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1246" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1247" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1248" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1249" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1249" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-21.7828 14.2624 15.5307" nodeId="1250">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1251" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1252" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1253" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1251" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1252" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1253" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1254" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1254" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-18.777 14.2624 15.5307" nodeId="1255">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1256" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1257" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1258" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1256" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1257" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1258" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1259" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1259" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-15.769 14.2624 15.5307" nodeId="1260">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1261" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1262" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1263" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1261" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1262" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1263" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1264" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1264" materialIds="55"/>
               </TransformGroup>
             </TransformGroup>
             <TransformGroup name="solarCell_row" translation="0 0 -8.80459" nodeId="1265">
               <TransformGroup name="solarCell" translation="-24.8165 14.2624 15.5307" nodeId="1266">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1267" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1268" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1269" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1267" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1268" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1269" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1270" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1270" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-21.7828 14.2624 15.5307" nodeId="1271">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1272" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1273" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1274" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1272" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1273" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1274" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1275" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1275" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-18.777 14.2624 15.5307" nodeId="1276">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1277" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1278" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1279" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1277" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1278" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1279" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1280" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1280" materialIds="55"/>
               </TransformGroup>
               <TransformGroup name="solarCell" translation="-15.769 14.2624 15.5307" nodeId="1281">
-                <Shape shapeId="136" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1282" materialIds="31,23" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="137" name="decals" clipDistance="100" nodeId="1283" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="138" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1284" materialIds="103" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="141" name="Panel" translation="0 0.236084 0.00426787" rotation="19.6425 -0 0" static="true" clipDistance="300" nodeId="1282" materialIds="31,23" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="142" name="decals" clipDistance="100" nodeId="1283" materialIds="99,102,54,65" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="143" name="szklo" scale="1.13171 1 0.559423" clipDistance="100" nodeId="1284" materialIds="103" castsShadows="true" receiveShadows="true"/>
                 </Shape>
-                <Shape shapeId="139" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1285" materialIds="55"/>
+                <Shape shapeId="144" name="solarcellSupport" translation="1.15507 0 0.047613" scale="0.018 0.018 0.523998" nodeId="1285" materialIds="55"/>
               </TransformGroup>
             </TransformGroup>
           </TransformGroup>
         </TransformGroup>
-        <Camera name="gui_camera" translation="-37.7961 13.3636 27.0411" rotation="164.737 -72.0972 -180" nodeId="1286" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+        <Camera name="gui_camera" translation="-2.01404 32.9173 81.0839" rotation="-37.4947 0.985908 -9.68976e-07" nodeId="1286" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
       </TransformGroup>
   </Scene>
 
