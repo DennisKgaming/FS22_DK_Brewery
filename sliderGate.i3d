@@ -6,9 +6,6 @@
   </Asset>
 
   <Files>
-    <File fileId="4" filename="textures/woodCage_diffuse.dds"/>
-    <File fileId="5" filename="textures/woodCage_normal.dds"/>
-    <File fileId="6" filename="textures/woodCage_specular.dds"/>
     <File fileId="11" filename="shaders/buildingShader.xml"/>
     <File fileId="8" filename="textures/buildingsArray2_diffuse.png"/>
     <File fileId="9" filename="textures/buildingsArray2_normal.png"/>
@@ -16,6 +13,9 @@
     <File fileId="1" filename="textures/fencesDE_diffuse.png"/>
     <File fileId="2" filename="textures/fencesDE_normal.png"/>
     <File fileId="3" filename="textures/fencesDE_specular.png"/>
+    <File fileId="4" filename="textures/woodCage_diffuse.dds"/>
+    <File fileId="5" filename="textures/woodCage_normal.dds"/>
+    <File fileId="6" filename="textures/woodCage_specular.dds"/>
   </Files>
 
 
@@ -48,12 +48,12 @@
   </Dynamics>
 
   <Scene>
-      <TransformGroup name="SlideGate02" rotation="0 180 0" scale="1 1.115 1" static="true" clipDistance="200" nodeId="15">
+      <TransformGroup name="SlideGate02" rotation="-3.28066e-05 0 -3.27971e-05" scale="1 1.15 1" static="true" clipDistance="200" nodeId="15">
         <Shape shapeId="1" name="SlideGate01_gate" translation="7.75 0 0" nodeId="16" materialIds="7" castsShadows="true" receiveShadows="true">
           <Shape shapeId="1" name="slideGateMetal" translation="-7.66736 0 0" nodeId="17" materialIds="7" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="2" name="col" translation="-7.69309 1.53744 0" visibility="false" kinematic="true" clipDistance="100" nodeId="18" materialIds="5" nonRenderable="true" distanceBlending="false"/>
         </Shape>
-        <Shape shapeId="3" name="SlideGate01_trigger" kinematic="true" trigger="true" collisionMask="3145728" linearDamping="0.5" angularDamping="0.5" nodeId="19" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="3" name="SlideGate01_trigger" static="true" trigger="true" collisionMask="11534336" nodeId="19" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         <Shape shapeId="4" name="slideGateMetal_post" translation="7.7834 0 0.149046" scale="1 1 0.620523" static="true" nodeId="20" materialIds="7" castsShadows="true" receiveShadows="true"/>
         <Shape shapeId="4" name="slideGateMetal_post" translation="7.7834 0 -0.139774" scale="1 1 0.620523" static="true" nodeId="21" materialIds="7" castsShadows="true" receiveShadows="true"/>
         <Shape shapeId="4" name="slideGateMetal_post" translation="-7.46 0 0.165077" scale="1 1 0.620523" static="true" nodeId="22" materialIds="7" castsShadows="true" receiveShadows="true"/>
@@ -63,13 +63,5 @@
         <Shape shapeId="5" name="gateFloorRail" translation="-7.3264 -0.122359 -0.000259608" rotation="0 90 0" scale="1 0.48 1.24871" static="true" clipDistance="300" nodeId="26" materialIds="6" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
   </Scene>
-
-  <UserAttributes>
-    <UserAttribute nodeId="15">
-      <Attribute name="index" type="string" value="vehicleShopSlideGate01"/>
-      <Attribute name="onCreate" type="scriptCallback" value="AnimatedMapObject.onCreate"/>
-      <Attribute name="xmlFilename" type="string" value="maps/animatedMapObjects.xml"/>
-    </UserAttribute>
-  </UserAttributes>
 
 </i3D>
