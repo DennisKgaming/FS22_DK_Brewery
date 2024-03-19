@@ -182,10 +182,25 @@
     </productionPoint>
 
 	<incomePerHour>10</incomePerHour>
+
+	<animatedObjects>
 	
-	<effectNodes>
-		<effectNode effectNode="smoke" materialType="smoke" />
-	</effectNodes>
+		<animatedObject index="breweryGate">
+		  <controls triggerNode="SlideGate01_trigger" posAction="ACTIVATE_HANDTOOL" posText="action_openGate" negText="action_closeGate" />
+		  <animation initialTime="0" duration="5">
+			<part node="SlideGate01_gate">
+			  <keyFrame time="0.05" translation="7.75 0 0" />
+			  <keyFrame time="1.00" translation="-7.3 0 0" />
+			</part>
+		  </animation>
+		  <sounds>
+			<moving linkNode="SlideGate01_gate" template="slidingGateMetalLoop" />
+			<posEnd linkNode="SlideGate01_gate" template="slidingGateMetalOpen" />
+			<negEnd linkNode="SlideGate01_gate" template="slidingGateMetalClose" />
+		  </sounds>
+		</animatedObject>
+	
+	</animatedObjects>
 
     <i3dMappings>
         
@@ -226,7 +241,8 @@
 		
         <i3dMapping id="playerTrigger" 						node="0>6" />
 		
-        <i3dMapping id="smoke" 								node="0>7|0|0" />
+        <i3dMapping id="SlideGate01_gate" 					node="0>11|6|0" />
+        <i3dMapping id="SlideGate01_trigger" 				node="0>11|6|1" />
 		
         <i3dMapping id="tankStation" 						node="0>13|0" />
 		
