@@ -56,6 +56,13 @@
         <levelAreas>
             <levelArea startNode="clearArea1Start" widthNode="clearArea1Width" heightNode="clearArea1Height" groundType="asphalt"/>
         </levelAreas>
+		
+		<paintAreas>
+			<paintArea startNode="paintArea1start" widthNode="paintArea1width" heightNode="paintArea1heigth" groundType="asphalt" />
+			<paintArea startNode="paintArea2start" widthNode="paintArea2width" heightNode="paintArea2heigth" groundType="asphalt" />
+			<paintArea startNode="paintArea3start" widthNode="paintArea3width" heightNode="paintArea3heigth" groundType="grass" />
+			<paintArea startNode="paintArea4start" widthNode="paintArea4width" heightNode="paintArea4heigth" groundType="grass" />
+		</paintAreas>
     </leveling>
 
     <indoorAreas>
@@ -223,6 +230,19 @@
         <i3dMapping id="indoorArea4Start" 					node="0>1|2|3" />
         <i3dMapping id="indoorArea4Width" 					node="0>1|2|3|0" />
         <i3dMapping id="indoorArea4Height" 					node="0>1|2|3|1" />
+		
+        <i3dMapping id="paintArea1start" 					node="0>1|3|0" />
+        <i3dMapping id="paintArea1width" 					node="0>1|3|0|0" />
+        <i3dMapping id="paintArea1heigth" 					node="0>1|3|0|1" />
+        <i3dMapping id="paintArea2start" 					node="0>1|3|1" />
+        <i3dMapping id="paintArea2width" 					node="0>1|3|1|0" />
+        <i3dMapping id="paintArea2heigth" 					node="0>1|3|1|1" />
+        <i3dMapping id="paintArea3start" 					node="0>1|3|2" />
+        <i3dMapping id="paintArea3width" 					node="0>1|3|2|0" />
+        <i3dMapping id="paintArea3heigth" 					node="0>1|3|2|1" />
+        <i3dMapping id="paintArea4start" 					node="0>1|3|3" />
+        <i3dMapping id="paintArea4width" 					node="0>1|3|3|0" />
+        <i3dMapping id="paintArea4heigth" 					node="0>1|3|3|1" />
 		
         <i3dMapping id="infoTrigger" 						node="0>2|0" />
         <i3dMapping id="unloadTriggerMarker_solid" 			node="0>2|1|0" />
