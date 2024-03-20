@@ -34,8 +34,9 @@
 		
     </storeItems>
 	
-	<!-- <extraSourceFiles>		 -->
-		<!-- <sourceFile filename="scripts/AnimatedObjectExtend.lua" /> -->
-    <!-- </extraSourceFiles> -->
+	<extraSourceFiles>		
+		<sourceFile filename="scripts/AnimatedObjectExtend.lua" />
+		<sourceFile filename="scripts/AnimatedObjectExtendEvent.lua" />
+    </extraSourceFiles>
 	
 </modDesc>

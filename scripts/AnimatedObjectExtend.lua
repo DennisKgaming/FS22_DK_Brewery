@@ -5,7 +5,7 @@
 --
 -- Copyright (c) DerElky, 2021
 local modDirectory = g_currentModDirectory
-source(modDirectory .. "scripts/AnimatedObjectExtendEvent.lua")
+source(modDirectory .. "script/AnimatedObjectExtendEvent.lua")
 
 function load(self, superFunc, nodeId, xmlFile, key, xmlFilename,i3dMappings)
 	local success = superFunc(self, nodeId, xmlFile, key, xmlFilename,i3dMappings)

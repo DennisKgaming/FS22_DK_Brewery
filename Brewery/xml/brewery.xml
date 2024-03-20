@@ -54,7 +54,7 @@
 
     <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30" >
         <levelAreas>
-            <levelArea startNode="clearArea1Start" widthNode="clearArea1Width" heightNode="clearArea1Height" groundType="asphalt"/>
+            <levelArea startNode="clearArea1Start" widthNode="clearArea1Width" heightNode="clearArea1Height"/>
         </levelAreas>
 		
 		<paintAreas>
@@ -189,6 +189,7 @@
     </productionPoint>
 
 	<incomePerHour>10</incomePerHour>
+
 
 	<animatedObjects>
 	
