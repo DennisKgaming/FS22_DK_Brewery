@@ -160,5 +160,6 @@
     <fillTypeCategories>
         <fillTypeCategory name="BEER_INGREDIENTS">MALT YEAST FRUIT_MASH</fillTypeCategory>
         <fillTypeCategory name="BEERS">REGULAR_BEER WHEAT_BEER STOUT_ALE FRUIT_BEER</fillTypeCategory>
+        <fillTypeCategory name="PRODUCTS">REGULAR_BEER WHEAT_BEER STOUT_ALE FRUIT_BEER</fillTypeCategory>
     </fillTypeCategories>
 </map>
