@@ -64,6 +64,13 @@
 			<paintArea startNode="paintArea4start" widthNode="paintArea4width" heightNode="paintArea4heigth" groundType="grass" />
 		</paintAreas>
     </leveling>
+	
+	<foliageAreas>
+		
+		<foliageArea startNode="paintArea3start" widthNode="paintArea3width" heightNode="paintArea3heigth" fruitType="grass" /> <!-- mowable -->
+        <foliageArea startNode="paintArea4start" widthNode="paintArea4width" heightNode="paintArea4heigth" fruitType="grass" /> <!-- mowable -->
+       
+    </foliageAreas>
 
     <indoorAreas>
         <indoorArea startNode="indoorArea1Start" widthNode="indoorArea1Width" heightNode="indoorArea1Height"/>
