@@ -2,28 +2,6 @@
 <map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd">
     
 	<fillTypes>
-		<fillType name="MALT" title="Malt" showOnPriceTable="true">
-            <physics massPerLiter="1.44" maxPhysicalSurfaceAngle="38" />
-            <economy pricePerLiter="5.3">
-                <factors>
-                    <factor period="1"  value="1.06" />
-                    <factor period="2"  value="1.01" />
-                    <factor period="3"  value="0.96" />
-                    <factor period="4"  value="0.90" />
-                    <factor period="5"  value="0.95" />
-                    <factor period="6"  value="0.95" />
-                    <factor period="7"  value="1.03" />
-                    <factor period="8"  value="1.09" />
-                    <factor period="9"  value="0.98" />
-                    <factor period="10" value="0.96" />
-                    <factor period="11" value="1.08" />
-                    <factor period="12" value="1.07" />
-                </factors>
-            </economy>
-            <image      hud     ="textures/malt.dds" />
-            <pallet     filename="Pallets/Malt/maltPallet.xml" />
-        </fillType>
-		
 		<fillType name="YEAST" title="Yeast" showOnPriceTable="true">
             <physics massPerLiter="0.5" maxPhysicalSurfaceAngle="38" />
             <economy pricePerLiter="15.0">
@@ -67,98 +45,10 @@
             <image      hud     ="textures/fruitMash.dds" />
             <pallet     filename="Pallets/fruitMash/fruitmashPallet.xml" />
         </fillType>
+	</fillTypes>	
 		
-		<fillType name="REGULAR_BEER" title="Regular Beer" showOnPriceTable="true">
-            <physics massPerLiter="1.01" maxPhysicalSurfaceAngle="38" />
-            <economy pricePerLiter="8.0">
-                <factors>
-                    <factor period="1"  value="1.06" />
-                    <factor period="2"  value="1.01" />
-                    <factor period="3"  value="0.96" />
-                    <factor period="4"  value="0.90" />
-                    <factor period="5"  value="0.95" />
-                    <factor period="6"  value="0.95" />
-                    <factor period="7"  value="1.03" />
-                    <factor period="8"  value="1.09" />
-                    <factor period="9"  value="0.98" />
-                    <factor period="10" value="0.96" />
-                    <factor period="11" value="1.08" />
-                    <factor period="12" value="1.07" />
-                </factors>
-            </economy>
-            <image      hud     ="textures/regularBeer.dds" />
-            <pallet     filename="Pallets/regularBeer/regularbeerPallet.xml" />
-        </fillType>
-		
-		<fillType name="WHEAT_BEER" title="Wheat Beer" showOnPriceTable="true">
-            <physics massPerLiter=".01" maxPhysicalSurfaceAngle="38" />
-            <economy pricePerLiter="8.5">
-                <factors>
-                    <factor period="1"  value="1.06" />
-                    <factor period="2"  value="1.01" />
-                    <factor period="3"  value="0.96" />
-                    <factor period="4"  value="0.90" />
-                    <factor period="5"  value="0.95" />
-                    <factor period="6"  value="0.95" />
-                    <factor period="7"  value="1.03" />
-                    <factor period="8"  value="1.09" />
-                    <factor period="9"  value="0.98" />
-                    <factor period="10" value="0.96" />
-                    <factor period="11" value="1.08" />
-                    <factor period="12" value="1.07" />
-                </factors>
-            </economy>
-            <image      hud     ="textures/wheatBeer.dds" />
-            <pallet     filename="Pallets/wheatBeer/wheatbeerPallet.xml" />
-        </fillType>
-		
-		<fillType name="STOUT_ALE" title="Stout Ale" showOnPriceTable="true">
-            <physics massPerLiter="1.01" maxPhysicalSurfaceAngle="38" />
-            <economy pricePerLiter="9.0">
-                <factors>
-                    <factor period="1"  value="1.06" />
-                    <factor period="2"  value="1.01" />
-                    <factor period="3"  value="0.96" />
-                    <factor period="4"  value="0.90" />
-                    <factor period="5"  value="0.95" />
-                    <factor period="6"  value="0.95" />
-                    <factor period="7"  value="1.03" />
-                    <factor period="8"  value="1.09" />
-                    <factor period="9"  value="0.98" />
-                    <factor period="10" value="0.96" />
-                    <factor period="11" value="1.08" />
-                    <factor period="12" value="1.07" />
-                </factors>
-            </economy>
-            <image      hud     ="textures/stoutAle.dds" />
-            <pallet     filename="Pallets/stoutAle/stoutalePallet.xml" />
-        </fillType>
-		
-		<fillType name="FRUIT_BEER" title="Fruit Beer" showOnPriceTable="true">
-            <physics massPerLiter="1.01" maxPhysicalSurfaceAngle="38" />
-            <economy pricePerLiter="9.0">
-                <factors>
-                    <factor period="1"  value="1.06" />
-                    <factor period="2"  value="1.01" />
-                    <factor period="3"  value="0.96" />
-                    <factor period="4"  value="0.90" />
-                    <factor period="5"  value="0.95" />
-                    <factor period="6"  value="0.95" />
-                    <factor period="7"  value="1.03" />
-                    <factor period="8"  value="1.09" />
-                    <factor period="9"  value="0.98" />
-                    <factor period="10" value="0.96" />
-                    <factor period="11" value="1.08" />
-                    <factor period="12" value="1.07" />
-                </factors>
-            </economy>
-            <image      hud     ="textures/fruitBeer.dds" />
-            <pallet     filename="Pallets/fruitBeer/fruitbeerPallet.xml" />
-        </fillType>
-	</fillTypes>
 	
     <fillTypeCategories>
-        <fillTypeCategory name="LOC_BEER_INGREDIENTS">MALT YEAST FRUIT_MASH</fillTypeCategory>
-        <fillTypeCategory name="LOC_BEERS">REGULAR_BEER WHEAT_BEER STOUT_ALE FRUIT_BEER</fillTypeCategory>
+        <fillTypeCategory name="LOC_BEER_INGREDIENTS">YEAST FRUIT_MASH</fillTypeCategory>
     </fillTypeCategories>
 </map>
