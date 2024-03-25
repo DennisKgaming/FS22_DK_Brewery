@@ -33,7 +33,7 @@
     </storeData>
 
     <base>
-        <filename>FermentingFactory/i3d/fermentingFactory.i3d</filename>
+        <filename>FermentingFactory/i3d/FermentingFactory.i3d</filename>
         <canBeRenamed>true</canBeRenamed>
         <boughtWithFarmland>true</boughtWithFarmland>
     </base>

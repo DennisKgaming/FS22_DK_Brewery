@@ -715,8 +715,8 @@
         <TransformGroup name="IN" translation="-2.32018 0.325342 -28.1696" nodeId="298">
           <TransformGroup name="unloadingStation" translation="12.8674 0.33759 -2.26527" rotation="0 90 0" nodeId="299">
             <TransformGroup name="UnloadingTriggerBunker" translation="2.71299 0 -4.49334" nodeId="300">
-              <Shape shapeId="19" name="unloadTriggerBunker" translation="-7.88772 -0.598738 13.7751" kinematic="true" compound="true" trigger="true" collisionMask="1073741824" nodeId="301" materialIds="70" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-              <Shape shapeId="20" name="baleTriggerBunker" translation="-7.72243 5.31794 13.4965" rotation="0 90 0" scale="0.694081 1.52446 1" kinematic="true" compound="true" collisionMask="1090519040" nodeId="302" materialIds="70" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <Shape shapeId="19" name="unloadTriggerBunker" translation="-7.88772 -1.14429 13.7751" kinematic="true" compound="true" trigger="true" collisionMask="1073741824" nodeId="301" materialIds="70" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <Shape shapeId="20" name="baleTriggerBunker" translation="-7.72243 4.81424 13.4965" rotation="0 90 0" scale="0.694081 1.52446 1" kinematic="true" compound="true" trigger="true" collisionMask="1090519040" nodeId="302" materialIds="70" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
             </TransformGroup>
             <TransformGroup name="UnloadingTriggerLiquid" translation="-28.8596 -0.245249 -0.0485249" rotation="-2.22714e-13 0 -4.07781e-14" nodeId="303">
               <Shape shapeId="20" name="unloadTriggerLiquid" translation="-7.94708 3.478 -0.362923" rotation="0 90 0" scale="0.694081 1 1" kinematic="true" collisionMask="1073741824" nodeId="304" materialIds="70" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
@@ -750,7 +750,7 @@
           </TransformGroup>
         </TransformGroup>
         <TransformGroup name="Camera" translation="-26.744 1.254 -1.64023" rotation="-0 90 0" nodeId="325">
-          <Camera name="gui_camera" translation="29.8813 9.81221 -25.202" rotation="143.884 -2.76085 -180" nodeId="326" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+          <Camera name="gui_camera" translation="26.5351 6.07721 20.4039" rotation="176.428 7.32316 180" nodeId="326" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
         </TransformGroup>
         <TransformGroup name="Audio" nodeId="327">
           <AudioSource name="audio" translation="5.88077 2.50709 -14.7987" nodeId="328" fileIds="74" range="28" innerRange="25" volume="0.93" loops="0"/>
