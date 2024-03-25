@@ -67,7 +67,7 @@
     <File fileId="12" filename="../textures/lrgDryer/gouttierre.dds"/>
     <File fileId="9" filename="../textures/lrgDryer/toiture.dds"/>
     <File fileId="17" filename="../textures/lrgDryer/tuyauterie.dds"/>
-    <File fileId="5" filename="$data/shared/window_diffuse.dds"/>
+    <File fileId="5" filename="../textures/lrgDryer/window_diffuse.dds"/>
     <File fileId="98" filename="../textures/off_white.dds"/>
     <File fileId="117" filename="../textures/parked_cars.dds"/>
     <File fileId="33" filename="../textures/parts/Galvanized.dds"/>
@@ -150,8 +150,8 @@
     <File fileId="113" filename="../textures/thermo_king.dds"/>
     <File fileId="95" filename="../textures/wab006.dds"/>
     <File fileId="73" filename="../textures/waterTrailer_blue_diffuse.png"/>
-    <File fileId="82" filename="$data/shared/window_diffuse.png"/>
-    <File fileId="83" filename="$data/shared//window_specular.png"/>
+    <File fileId="82" filename="../textures/window_diffuse.png"/>
+    <File fileId="83" filename="../textures/window_specular.png"/>
     <File fileId="192" filename="../../shaders/buildingShader.xml"/>
     <File fileId="177" filename="../../textures/buildingDetails_diffuse.dds"/>
     <File fileId="178" filename="../../textures/buildingDetails_normal.dds"/>
@@ -174,9 +174,9 @@
     <File fileId="211" filename="../../textures/metal_specular.dds"/>
     <File fileId="209" filename="../../textures/metalczorny.dds"/>
     <File fileId="218" filename="../../textures/metalstebny.dds"/>
-    <File fileId="205" filename="../../textures/decalOilSlicks_diffuse.png"/>
-    <File fileId="19" filename="../../textures/wheatBottom_diffuse.dds"/>
-    <File fileId="20" filename="../../textures/wheatBottom_normal.dds"/>
+    <File fileId="205" filename="../../textures/props/decalOilSlicks_diffuse.png"/>
+    <File fileId="19" filename="../../textures/shared/wheatBottom_diffuse.dds"/>
+    <File fileId="20" filename="../../textures/shared/wheatBottom_normal.dds"/>
     <File fileId="162" filename="../../textures/streetLamps_diffuse.png"/>
     <File fileId="163" filename="../../textures/streetLamps_normal.png"/>
     <File fileId="164" filename="../../textures/streetLamps_specular.png"/>
