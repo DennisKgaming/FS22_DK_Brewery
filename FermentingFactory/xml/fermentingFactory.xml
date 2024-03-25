@@ -9,7 +9,7 @@
         <functions>
             <function>$l10n_function_productionPoint</function>
         </functions>
-        <image>Brewery/icons/storeIcon_beerProduction.dds</image> <!-- @TODO Need new Icon -->
+        <image>icons/storeIcon_breweryPack.dds</image> <!-- @TODO Need new Icon -->
         <price>40000</price>
         <lifetime>1000</lifetime>
         <rotation>0</rotation>
